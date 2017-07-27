@@ -63,21 +63,21 @@ Per ciascuno di questi ambiti, la seguente tabella elenca sia le basi di dati ch
    | #DatiPubblici", "| Basi di dati sulle schede di catalogo dei beni culturali
    | elaborati nel Sistema generale del Catalogo (SIGEC)."
    "Cammini e percorsi", "| MIBACT, Regioni Task Force
-   | #DatiPubblicii e altre
+   | #DatiPubblici e altre
    | Regioniindividuate dal MIBACT", "| Base di dati contenente informazioni su itinerari e percorsi
    | (e.g., via francigena). I percorsi e gli itinerari sono
    | descritti in base al tipo di percorso, alle possibili tappe,
    | ai territori attraversati, ecc."
    "Strutture ricettive", "| MIBACT, Regioni Task Force
-   | #DatiPubblicii e altre
+   | #DatiPubblici e altre
    | Regioni individuate dal MIBACT", "| Base di dati contenente i dati relativi alle informazioni
    | principali che consentono di identificare le strutture
    | ricettive quali agriturismi, strutture alberghiere e strutture
    | extra alberghiere."
    "Guide Turistiche", "| MIBACT, Regioni Task Force
-   | #DatiPubblicii e altre
+   | #DatiPubblici e altre
    | Regioni individuate dal MIBACT", "| Base di dati contenente le principali informazioni sulle
-   | guide turistiche d’Italia."
+   | Guide Turistiche abilitate d’Italia."
 
 
 `Economia e finanze <http://linee-guida-cataloghi-dati-profilo-dcat-ap-it.readthedocs.io/it/latest/temi.html#economia-e-finanze>`__
