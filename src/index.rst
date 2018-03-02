@@ -17,4 +17,5 @@ Indice dei contenuti
    processo.rst
    elencobasidati.rst
    obiettivi.rst
+   monitoraggio.rst
    appendice.rst
