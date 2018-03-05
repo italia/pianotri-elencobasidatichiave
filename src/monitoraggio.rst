@@ -644,10 +644,10 @@ Regione Lombardia
 ============================================ =================================================================================================================================================
 Obiettivo                                    Stato
 ============================================ =================================================================================================================================================
-**Open Data (Obiettivo 2)**                  |`Architetture <https://www.dati.lombardia.it/Cultura/Architetture/kf9b-rj2t>`__
-                                             |`Beni culturali Bella Lombardia <https://www.dati.lombardia.it/Cultura/Beni-culturali-Bella-Lombardia/4mr7-hfsh>`__
+**Open Data (Obiettivo 2)**                  | `Architetture <https://www.dati.lombardia.it/Cultura/Architetture/kf9b-rj2t>`__
+                                             | `Beni culturali Bella Lombardia <https://www.dati.lombardia.it/Cultura/Beni-culturali-Bella-Lombardia/4mr7-hfsh>`__
 **Caricamento DAF e API (Obiettivi 1 e 3)**
-**Monitoraggio (Obiettivo 5)**
+**Monitoraggio (Obiettivo 5)**               Si sta predisponendo il flusso di ingestion DAF per interrogare web services della piattaforma      della Regione. La Regione si sta predisponendo per l’esposizione dei metadati DCAT-AP_IT. Questo consentirà un più agevole harvesting dei dati nel catalogo nazionale dei dati aperti che potranno poi confluire nel DAF utilizzando flussi già attivi. 
 ============================================ =================================================================================================================================================
 
 
@@ -700,8 +700,8 @@ Provincia Autonoma di Bolzano
 ============================================ ======================================================================================================================================================
 Obiettivo                                    Stato
 ============================================ ======================================================================================================================================================
-**Open Data (Obiettivo 2)**                  |`Catalogo dei Beni <http://dati.retecivica.bz.it/it/dataset/catalogo-beni-culturali>`__
-                                             |`Culturali in Alto Adige <http://dati.retecivica.bz.it/it/dataset/catalogo-beni-culturali>`__
+**Open Data (Obiettivo 2)**                  | `Catalogo dei Beni <http://dati.retecivica.bz.it/it/dataset/catalogo-beni-culturali>`__
+                                             | `Culturali in Alto Adige <http://dati.retecivica.bz.it/it/dataset/catalogo-beni-culturali>`__
 **Caricamento DAF e API (Obiettivi 1 e 3)**
 **Monitoraggio (Obiettivo 5)**
 ============================================ ======================================================================================================================================================
@@ -715,7 +715,6 @@ Obiettivo                                    Stato
 **Caricamento DAF e API (Obiettivi 1 e 3)**
 **Monitoraggio (Obiettivo 5)**
 ============================================ =================================================================================================================================================
-
 
 Comune di Milano
 """"""""""""""""
@@ -851,8 +850,8 @@ Provincia Autonoma di Bolzano
 ============================================ ======================================================================================================================================================
 Obiettivo                                    Stato
 ============================================ ======================================================================================================================================================
-**Open Data (Obiettivo 2)**                  |`Percorsi MountainBike <http://dati.retecivica.bz.it/it/dataset/rete-viaria-percorsi-mtb-ufficialmente-riconosciuti>`__
-                                             |`Percorsi escursionistici <http://dati.retecivica.bz.it/it/dataset/rete-viaria-percorsi-escursionistici>`__
+**Open Data (Obiettivo 2)**                  | `Percorsi MountainBike <http://dati.retecivica.bz.it/it/dataset/rete-viaria-percorsi-mtb-ufficialmente-riconosciuti>`__
+                                             | `Percorsi escursionistici <http://dati.retecivica.bz.it/it/dataset/rete-viaria-percorsi-escursionistici>`__
 **Caricamento DAF e API (Obiettivi 1 e 3)**  In corso.
 **Monitoraggio (Obiettivo 5)**
 ============================================ ======================================================================================================================================================
@@ -866,7 +865,6 @@ Obiettivo                                    Stato
 **Caricamento DAF e API (Obiettivi 1 e 3)**
 **Monitoraggio (Obiettivo 5)**
 ============================================ =================================================================================================================================================
-
 
 Comune di Milano
 """"""""""""""""
@@ -893,7 +891,7 @@ Comune di Firenze
 ============================================ ===========================================================================================================================================================
 Obiettivo                                    Stato
 ============================================ ===========================================================================================================================================================
-**Open Data (Obiettivo 2)**                  |`Walking city <http://opendata.comune.fi.it/cultura_turismo/dataset_0391.html>`__
+**Open Data (Obiettivo 2)**                  | `Walking city <http://opendata.comune.fi.it/cultura_turismo/dataset_0391.html>`__
 **Caricamento DAF e API (Obiettivi 1 e 3)**
 **Monitoraggio (Obiettivo 5)**
 ============================================ ===========================================================================================================================================================
