@@ -700,8 +700,7 @@ Provincia Autonoma di Bolzano
 ============================================ ======================================================================================================================================================
 Obiettivo                                    Stato
 ============================================ ======================================================================================================================================================
-**Open Data (Obiettivo 2)**                  | `Catalogo dei Beni <http://dati.retecivica.bz.it/it/dataset/catalogo-beni-culturali>`__
-                                             | `Culturali in Alto Adige <http://dati.retecivica.bz.it/it/dataset/catalogo-beni-culturali>`__
+**Open Data (Obiettivo 2)**                  `Catalogo dei Beni Culturali in Alto Adige <http://dati.retecivica.bz.it/it/dataset/catalogo-beni-culturali>`__
 **Caricamento DAF e API (Obiettivi 1 e 3)**
 **Monitoraggio (Obiettivo 5)**
 ============================================ ======================================================================================================================================================
