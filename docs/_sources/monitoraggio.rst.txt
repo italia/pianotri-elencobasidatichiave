@@ -543,11 +543,64 @@ Economia e finanze
 Anagrafica Startup PMI innovative e incubatori certificati
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+============================================= ======================================================================================================================================================================================================================================================================================
+Obiettivo                                     Stato
+============================================= ======================================================================================================================================================================================================================================================================================
+**Open Data (Obiettivo 2)**                   | Il `dataset <http://startup.registroimprese.it/isin/static/pminnovative/index.html?slideJump=31>`__ è disponibile sul portale del Registro Imprese
+                                              | e scaricabile previa indicazione di un indirizzo email.
+                                              | Secondo le note legali presenti sul sito, non sembra possibile
+                                              | considerare i dati come dati aperti
+**Caricamento nel DAF (Obiettivo 1)**         | Al momento non abbiamo notizie da InfoCamere, con cui le
+                                              | comunicazioni si sono interrotte in data xxx.
+**Disponibilità di API (Obiettivo 3)**        Al meglio delle nostre conoscenze non è attualmente raggiunto
+**Modellazione dati (Obiettivo 4)**           | Nell’ambito della rete `OntoPiA <https://github.com/italia/daf-ontologie-vocabolari-controllati>`__
+                                              | di ontologie e vocabolari controllati per la pubblica amministrazione
+                                              | l’ontologia delle `organizzazioni (parte privata) <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/COV/latest>`__ può essere usata per la modellazione di questi dati.
+                                              | Il dataset non al momento corredato di metadati conformi al profilo DCAT-AP_IT
+============================================= ======================================================================================================================================================================================================================================================================================
+
+
 Statistiche Startup PMI innovative e incubatori certificati
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+============================================= ======================================================================================================================================================================================================================================================================================
+Obiettivo                                     Stato
+============================================= ======================================================================================================================================================================================================================================================================================
+**Open Data (Obiettivo 2)**                   | Il `dataset <http://startup.registroimprese.it/isin/static/startup/index.html?slideJump=32>`__ è disponibile sul portale del Registro Imprese
+                                              | e scaricabile previa indicazione di un indirizzo email.
+                                              | Secondo le note legali presenti sul sito, non sembra possibile
+                                              | considerare i dati come dati aperti
+**Caricamento nel DAF (Obiettivo 1)**         | Al momento non abbiamo notizie da InfoCamere, con cui le
+                                              | comunicazioni si sono interrotte in data xxx.
+**Disponibilità di API (Obiettivo 3)**        Al meglio delle nostre conoscenze non è attualmente raggiunto
+**Modellazione dati (Obiettivo 4)**           | Nell’ambito della rete `OntoPiA <https://github.com/italia/daf-ontologie-vocabolari-controllati>`__
+                                              | di ontologie e vocabolari controllati per la pubblica amministrazione
+                                              | l’ontologia delle `organizzazioni (parte privata) <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/COV/latest>`__ può essere usata per la modellazione di *una parte di questi dati*.
+                                              | Il dataset non al momento corredato di metadati conformi al profilo DCAT-AP_IT
+============================================= ======================================================================================================================================================================================================================================================================================
+
+
+
 Statistiche del registro imprese - Movimprese
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+============================================= ======================================================================================================================================================================================================================================================================================
+Obiettivo                                     Stato
+============================================= ======================================================================================================================================================================================================================================================================================
+**Open Data (Obiettivo 2)**                   | Il `dataset <https://www.infocamere.it/movimprese>`__ è disponibile sul portale del Registro Imprese
+                                              | e scaricabile.
+                                              | Al meglio delle nostre conoscenze non si ravvedono vincoli
+                                              | per il riutilizzo dei dati che possono così essere considerati
+                                              | aperti by default.
+**Caricamento nel DAF (Obiettivo 1)**         | Al momento non abbiamo notizie da InfoCamere, con cui le
+                                              | comunicazioni si sono interrotte in data xxx.
+**Disponibilità di API (Obiettivo 3)**        Al meglio delle nostre conoscenze non è attualmente raggiunto
+**Modellazione dati (Obiettivo 4)**           | Nell’ambito della rete `OntoPiA <https://github.com/italia/daf-ontologie-vocabolari-controllati>`__
+                                              | di ontologie e vocabolari controllati per la pubblica amministrazione
+                                              | l’ontologia delle `organizzazioni (parte privata) <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/COV/latest>`__ può essere usata per la modellazione di *una parte di questi dati*.
+                                              | Il dataset non al momento corredato di metadati conformi al profilo DCAT-AP_IT
+============================================= ======================================================================================================================================================================================================================================================================================
+
 
 Catasto - Osservatorio Mercato Immobiliare
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
