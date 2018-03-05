@@ -647,7 +647,7 @@ Obiettivo                                    Stato
 **Open Data (Obiettivo 2)**                  | `Architetture <https://www.dati.lombardia.it/Cultura/Architetture/kf9b-rj2t>`__
                                              | `Beni culturali Bella Lombardia <https://www.dati.lombardia.it/Cultura/Beni-culturali-Bella-Lombardia/4mr7-hfsh>`__
 **Caricamento DAF e API (Obiettivi 1 e 3)**
-**Monitoraggio (Obiettivo 5)**               Si sta predisponendo il flusso di ingestion DAF per interrogare web services della piattaforma      della Regione. La Regione si sta predisponendo per l’esposizione dei metadati DCAT-AP_IT. Questo consentirà un più agevole harvesting dei dati nel catalogo nazionale dei dati aperti che potranno poi confluire nel DAF utilizzando flussi già attivi. 
+**Monitoraggio (Obiettivo 5)**               Si sta predisponendo il flusso di ingestion DAF per interrogare web services della piattaforma della Regione. La Regione si sta predisponendo per l’esposizione dei metadati DCAT-AP_IT. Questo consentirà un più agevole harvesting dei dati nel catalogo nazionale dei dati aperti che potranno poi confluire nel DAF utilizzando flussi già attivi. 
 ============================================ =================================================================================================================================================
 
 
@@ -716,6 +716,7 @@ Obiettivo                                    Stato
 **Monitoraggio (Obiettivo 5)**
 ============================================ =================================================================================================================================================
 
+
 Comune di Milano
 """"""""""""""""
 ============================================ ====================================================================================================================================================================================================================================================================================
@@ -725,6 +726,7 @@ Obiettivo                                    Stato
 **Caricamento DAF e API (Obiettivi 1 e 3)**
 **Monitoraggio (Obiettivo 5)**
 ============================================ =================================================================================================================================================
+
 
 Comune di Torino
 """"""""""""""""
@@ -745,6 +747,7 @@ Obiettivo                                    Stato
 **Caricamento DAF e API (Obiettivi 1 e 3)**
 **Monitoraggio (Obiettivo 5)**
 ============================================ ===========================================================================================================================================================
+
 
 Comune di Bari
 """"""""""""""
