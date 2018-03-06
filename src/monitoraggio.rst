@@ -1610,9 +1610,9 @@ Alcune delle sperimentazioni in corso su dati pubblici coinvolgono:
 3. CISIS - Accessi servizi qualificati (SPID) - L’ontologia sui servizi pubblici CPSV-AP_IT potrà essere valutata per la modellazione di questa tipologia di dati
 4. Corte dei Conti - Banca dati delle sentenze
 5. INAIL - Infortuni sul lavoro
-6. MEF RGS - Programmi cofinanziati dall’Unione europea nel periodo 2007/2013
+6. MEF RGS - Progetti della programmazione SIE 2007-2013 e Progetti relativi al Monitoraggio Opere Pubbliche
 7. MISE - Registro aiuti di stato
-8. MIT- Veicoli
+8. MIT - Veicoli
 9. Presidenza del Consiglio dei Ministri - Politiche di coesione (OpenCoesione)
 10. Presidenza del Consiglio dei Ministri DIPE - OpenCUP
 11. SOSE - Fabbisogni e spesa dei comuni e province (OpenCivitas)
