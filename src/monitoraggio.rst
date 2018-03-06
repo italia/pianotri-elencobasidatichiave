@@ -132,7 +132,7 @@ Si noti che nell’ambito della sperimentazione del DAF è stata attivata una co
 Si sta valutando pertanto la possibilità di pubblicare uno stream real time di tali dati.
 
 **Obiettivo 4**: Nell’ambito della rete `OntoPiA <https://github.com/italia/daf-ontologie-vocabolari-controllati>`__ di ontologie e vocabolari controllati per la pubblica amministrazione è stata creata l’ontologia EventiIoT (pubblicata in conferenza internazionale con esempi in Linked Open Data estratti dai dati sul traffico del comune di Firenze nell’ambito della rilevazione sperimentale fatta nel DAF con il comune stesso, come indicato sotto) costruita a partire dai dati realtime del Comune di Torino e del Comune di Firenze. L’ontologia è allineata a diverse ontologie del Web Semantico tra cui, in particolare, la Semantic Sensor Network.
-I dataset aperti della Provincia Autonoma di Trento e di Bolzano e del Comune di Torino via DAF presentano metadati allineati a DCAT-AP_IT. Nel caso del Comune di Roma Capitale, si segnala che sono in corso i test per la conformità al profilo DCAT-AP_IT e per l'harvesting nel catalogo nazionale.
+I dataset aperti della Provincia Autonoma di Trento e di Bolzano e del Comune di Torino via DAF presentano metadati allineati a DCAT-AP_IT. Nel caso di Roma Capitale, si segnala che sono in corso i test per la conformità al profilo DCAT-AP_IT e per l'harvesting nel catalogo nazionale.
 
 Parcheggi
 ^^^^^^^^^
@@ -227,7 +227,7 @@ Obiettivo                                    Stato
 ============================================ ===========================================================================================================================================================
 
 **Obiettivo 4**: Nell’ambito della rete `OntoPiA <https://github.com/italia/daf-ontologie-vocabolari-controllati>`__ di ontologie e vocabolari controllati per la pubblica amministrazione è stata creata l’ontologia dei Parcheggi. Oltre a una prima tassonomia presente nell’ontologia, in stretto contatto con ISTAT, si sta valutando la creazione di un ulteriore vocabolario controllato sui tipi di parcheggi che si differenziano in base alla loro struttura.
-I dataset aperti delle Province Autonome di Trento e Bolzano, del comune di Milano e di Firenze via DAF hanno metadati conformi al profilo DCAT-AP_IT. Nel caso del Comune di Roma Capitale, si segnala che sono in corso i test per la conformità al profilo DCAT-AP_IT e per l'harvesting nel catalogo nazionale.
+I dataset aperti delle Province Autonome di Trento e Bolzano, del comune di Milano e di Firenze via DAF hanno metadati conformi al profilo DCAT-AP_IT. Nel caso di Roma Capitale, si segnala che sono in corso i test per la conformità al profilo DCAT-AP_IT e per l'harvesting nel catalogo nazionale.
 
 Perimetro, varchi e orari ZTL
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -323,7 +323,7 @@ Obiettivo                                    Stato
 **Obiettivo 4**: Nell’ambito della rete `OntoPiA <https://github.com/italia/daf-ontologie-vocabolari-controllati>`__ di ontologie e vocabolari controllati per la pubblica amministrazione è stata creata l’ontologia dei Luoghi/Indirizzi che può essere utilizzata per modellare *una parte di questi dati (ovvero i dati trasversali presenti nel dataset)*.
 Non è ancora stata predisposta un’ontologia per i dati specifici di dominio.
 
-I dataset aperti della Provincia Autonoma di Trento e del comune di Milano hanno metadati conformi al profilo DCAT-AP_IT. Nel caso del Comune di Roma Capitale, si segnala che sono in corso i test per la conformità al profilo DCAT-AP_IT e per l'harvesting nel catalogo nazionale.
+I dataset aperti della Provincia Autonoma di Trento e del comune di Milano hanno metadati conformi al profilo DCAT-AP_IT. Nel caso di Roma Capitale, si segnala che sono in corso i test per la conformità al profilo DCAT-AP_IT e per l'harvesting nel catalogo nazionale.
 
 
 TPL dati statici e in tempo reale
