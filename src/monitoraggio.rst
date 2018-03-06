@@ -201,7 +201,7 @@ Comune di Firenze
 Obiettivo                                    Stato
 ============================================ ===========================================================================================================================================================
 **Open Data (Obiettivo 2)**                  | `Informazioni e stato dei parcheggi <http://opendata.comune.fi.it/mobilita_sicurezza/dataset_0372.html>`__
-                                             | Colonnine di ricarica
+                                             | `Colonnine di ricarica <http://opendata.comune.fi.it/mobilita_sicurezza/dataset_0165.html>`__
 **Caricamento DAF e API (Obiettivi 1 e 3)**  Attivi con aggiornamento al minuto/15 min
 **Monitoraggio (Obiettivo 5)**
 ============================================ ===========================================================================================================================================================
@@ -249,7 +249,7 @@ Provincia Autonoma di Bolzano
 ============================================ ======================================================================================================================================================
 Obiettivo                                    Stato
 ============================================ ======================================================================================================================================================
-**Open Data (Obiettivo 2)**                  Dati non disponibili presso l'Amministrazione
+**Open Data (Obiettivo 2)**                  I dati non sono disponibili presso l'Amministrazione
 **Caricamento DAF e API (Obiettivi 1 e 3)**
 **Monitoraggio (Obiettivo 5)**
 ============================================ ======================================================================================================================================================
@@ -457,7 +457,7 @@ Obiettivo                                    Stato
 **Monitoraggio (Obiettivo 5)**               | Sebbene attivo l'ingestion, non è ancora possibile pubblicare i dati
                                              | in open data perché i dati sono dati forniti giornalmente dal
                                              | supervisore del traffico della città Metropolitana. Si stanno
-                                             | prendendo contatti per stimolare l'apertura dei dati
+                                             | prendendo contatti per stimolare l'apertura dei dati via DAF.
 ============================================ ===========================================================================================================================================================
 
 Comune di Bari
@@ -480,6 +480,10 @@ Obiettivo                                    Stato
 **Monitoraggio (Obiettivo 5)**
 ============================================ ===========================================================================================================================================================
 
+**Obiettivo 4**: Nell’ambito della rete `OntoPiA <https://github.com/italia/daf-ontologie-vocabolari-controllati>`__ di ontologie e vocabolari controllati per la pubblica amministrazione, è in corso di definizione l’ontologia basata sul modello GTFS (per la parte relativa ai dati statici). Sulla base della specifica, alcuni dati sono già modellabili attraverso altre ontologie della rete, nello specifico, l’ontologia delle organizzazioni. l’ontologia del tempo, l’ontologia dei punti di interesse, l’ontologia dei prezzi/biglietti/offerte.
+Si stima che l’ontologia relativa di dominio sarà disponibile nel repository github nei prossimi mesi (entro la primavera). Questa sarà collegata alle suddette ontologie che possono già essere riutilizzate per modellare alcune informazioni della specifica. Per quanto concerne la parte di dati in tempo reale, l’ontologia Eventi IoT potrebbe essere utilizzata.
+
+
 
 
 Patenti attive
@@ -500,22 +504,19 @@ Obiettivo                                    Stato
                                              | Una versione più ampia del dataset, contenente anche informazioni
                                              | personali, è **stata caricata** nel DAF.
                                              | Al termine della sperimentazione l’amministrazione potrà decidere
-                                             | se pubblicare l'intero dataset mediante il DAF
+                                             | come pubblicare l'intero dataset mediante il DAF.
 **Modellazione dati (Obiettivo 4)**          | Non è al momento presente, nella rete `OntoPiA <https://github.com/italia/daf-ontologie-vocabolari-controllati>`__, un’ontologia
                                              | di dominio che catturi il concetto di Patente.
                                              | Tuttavia da una prima analisi dei dati, le ontologie sul tempo e sulle
                                              | persone possono essere utilizzate per modellare una parte dei dati.
 ============================================ ===========================================================================================================================================================
 
-**Obiettivo 4**: Nell’ambito della rete `OntoPiA <https://github.com/italia/daf-ontologie-vocabolari-controllati>`__ di ontologie e vocabolari controllati per la pubblica amministrazione, è in corso di definizione l’ontologia basata sul modello GTFS (per la parte relativa ai dati statici). Sulla base della specifica, alcuni dati sono già modellabili attraverso altre ontologie della rete, nello specifico, l’ontologia delle organizzazioni. l’ontologia del tempo, l’ontologia dei punti di interesse, l’ontologia dei prezzi/biglietti/offerte.
-Si stima che l’ontologia relativa di dominio sarà disponibile nel repository github nei prossimi mesi (entro la primavera). Questa sarà collegata alle suddette ontologie che possono già essere riutilizzate per modellare alcune informazioni della specifica. Per quanto concerne la parte di dati in tempo reale, l’ontologia Eventi IoT potrebbe essere utilizzata.
-
 
 Incidenti Stradali
 ^^^^^^^^^^^^^^^^^^
-"*Il dataset contiene i dati sugli incidenti stradali rilevati dalle polizie municipali dei territori comunali. Per questo motivo dalla Task Force #DatiPubblici sono state escluse le regioni.*"
+"*Il dataset contiene i dati sugli incidenti stradali rilevati dalle polizie municipali dei territori comunali.*"
+Tenuto conto della competenza delle amministrazioni su tale tipologia di dati, di seguito sono indicati i comuni della Task Force #DatiPubblici e della Provincia Autonoma di Trento.
 
-Dettaglio per singole amministrazioni coinvolte nella Task Force #DatiPubblici:
 
 Provincia Autonoma di Trento
 """"""""""""""""""""""""""""
@@ -524,18 +525,8 @@ Obiettivo                                    Stato
 ============================================ =================================================================================================================================================
 **Open Data (Obiettivo 2)**                  `Incidenti Comune di Trento <http://dati.trentino.it/dataset/incidenti-open-data>`__
 **Caricamento DAF e API (Obiettivi 1 e 3)**  Non ancora attivato
-**Monitoraggio (Obiettivo 5)**               Formato SHP ancora non supportato nel DAF
+**Monitoraggio (Obiettivo 5)**               Formato SHP ancora non supportato dal DAF
 ============================================ =================================================================================================================================================
-
-Provincia Autonoma di Bolzano
-"""""""""""""""""""""""""""""
-============================================ ======================================================================================================================================================
-Obiettivo                                    Stato
-============================================ ======================================================================================================================================================
-**Open Data (Obiettivo 2)**
-**Caricamento DAF e API (Obiettivi 1 e 3)**
-**Monitoraggio (Obiettivo 5)**               Non disponibile
-============================================ ======================================================================================================================================================
 
 Roma Capitale
 """""""""""""
@@ -544,7 +535,9 @@ Obiettivo                                    Stato
 ============================================ =================================================================================================================================================
 **Open Data (Obiettivo 2)**                  | `Incidenti stradali <http://dati.comune.roma.it/cms/it/incidenti_stradali.page>`__
                                              | `Ciclisti coinvolti negli incidenti <http://dati.comune.roma.it/cms/it/incidenti_stradali.page>`__
-**Caricamento DAF e API (Obiettivi 1 e 3)**  Parziale (già caricato sottoinsieme nell’ambito della sperimentazione, collaborazione in corso con l’amministrazione per unire le serie storiche)
+**Caricamento DAF e API (Obiettivi 1 e 3)**  | Parziale (già caricato sottoinsieme nell’ambito
+                                             | della sperimentazione; è in corso una collaborazione con l’amministrazione
+                                             | per unire le serie storiche.
 **Monitoraggio (Obiettivo 5)**
 ============================================ =================================================================================================================================================
 
@@ -576,7 +569,9 @@ Obiettivo                                    Stato
 ============================================ ===========================================================================================================================================================
 **Open Data (Obiettivo 2)**                  `Sinistri con velocipedi  <http://opendata.comune.fi.it/mobilita_sicurezza/dataset_0385.html>`__
 **Caricamento DAF e API (Obiettivi 1 e 3)**  Non ancora attivo
-**Monitoraggio (Obiettivo 5)**               Formato SHP ancora non supportato nel DAF. dataset relativo al periodo aprile 2011 - marzo 2015
+**Monitoraggio (Obiettivo 5)**               | Formato SHP ancora non supportato nel DAF.
+                                             | Si noti inoltre che il dataset è relativo
+                                             | al solo periodo aprile 2011 - marzo 2015
 ============================================ ===========================================================================================================================================================
 
 Comune di Bari
@@ -595,11 +590,12 @@ Comune di Palermo
 Obiettivo                                    Stato
 ============================================ ===========================================================================================================================================================
 **Open Data (Obiettivo 2)**                  `Sinistri stradali <https://opendata.comune.palermo.it/opendata-archivio-dataset.php?tag=INCIDENTI>`__
-**Caricamento DAF e API (Obiettivi 1 e 3)**  In attesa di harvesting
+**Caricamento DAF e API (Obiettivi 1 e 3)**  | In attesa di completare l'harvesting nel catalogo nazionale
+                                             | per caricarlo dallo stesso catalogo
 **Monitoraggio (Obiettivo 5)**
 ============================================ ===========================================================================================================================================================
 
-**Obiettivo 4**: Non è al momento presente, nella rete OntoPiA, un’ontologia di dominio per gli incidenti stradali. Da una prima analisi dei dati pubblicati dal Comune di Roma e dal Comune di Palermo, l’ontologia delle persone, dei luoghi/indirizzi, dei punti di interesse possono essere utilizzate per modellare una parte di questi dati. Si noti che si è in contatto con ISTAT per acquisire il modello da loro utilizzato che raccogliere i dati dai vari comuni italiani.
+**Obiettivo 4**: Non è al momento presente, nella rete `OntoPiA <https://github.com/italia/daf-ontologie-vocabolari-controllati>`__, un’ontologia di dominio per gli incidenti stradali. Da una prima analisi dei dati pubblicati da Roma Capitale e dal Comune di Palermo, le ontologie delle persone, dei luoghi/indirizzi, dei punti di interesse possono essere utilizzate per modellare una parte di questi dati. Si noti che si è in contatto con ISTAT per acquisire il modello da loro utilizzato che raccogliere i dati dai vari comuni italiani.
 
 
 Istruzione, cultura e sport
@@ -645,8 +641,9 @@ Obiettivo                                    Stato
                                              | `Anagrafe biblioteche comunali lombarde <https://www.dati.lombardia.it/Cultura/Anagrafe-biblioteche-comunali-lombarde/k2xm-fcgg>`__
 **Caricamento DAF e API (Obiettivi 1 e 3)**  Non ancora attivo
 **Monitoraggio (Obiettivo 5)**               | La regione si sta predisponendo per la pubblicazione di metadati
-                                             | DCAT-AP_IT. Questo consentirà di implementare harvesting del catalogo
-                                             | della Regione e di portare i dati aperti all'interno del DAF.
+                                             | DCAT-AP_IT. Questo consentirà di implementare
+                                             | l'harvesting del catalogo della Regione e, in seguito,
+                                             | di portare i dati aperti dal catalogo all'interno del DAF.
 ============================================ =================================================================================================================================================
 
 
@@ -658,7 +655,7 @@ Obiettivo                                    Stato
 **Open Data (Obiettivo 2)**                  | `Musei emiliano-romagnoli <http://dati.emilia-romagna.it/dataset/musei-emiliano-romagnoli--1942770d>`__
                                              | `Biblioteche Conservatori di archivi e musei <http://dati.emilia-romagna.it/dataset/biblioteche-conservatori-di-archivi-storici-e-musei-emiliano-romagnoli--4b53c584>`__
                                              | `Arte e cultura <http://dati.emilia-romagna.it/dataset/arte-e-cultura--f97ad51b>`__
-**Caricamento DAF e API (Obiettivi 1 e 3)**  In attesa di harvesting nel nuovo catalogo nazionale dei file CSV
+**Caricamento DAF e API (Obiettivi 1 e 3)**  In attesa di harvesting, nel nuovo catalogo nazionale, dei file CSV
 **Monitoraggio (Obiettivo 5)**               Il formato RDF non è ancora supportato dal DAF
 ============================================ ==========================================================================================================================================================================
 
@@ -695,7 +692,7 @@ Provincia Autonoma di Trento
 ============================================ =================================================================================================================================================
 Obiettivo                                    Stato
 ============================================ =================================================================================================================================================
-**Open Data (Obiettivo 2)**                  Dati non disponibili
+**Open Data (Obiettivo 2)**                  I dati non sono disponibili
 **Caricamento DAF e API (Obiettivi 1 e 3)**
 **Monitoraggio (Obiettivo 5)**
 ============================================ =================================================================================================================================================
@@ -736,7 +733,7 @@ Obiettivo                                    Stato
                                              | `Localizzazione biblioteche e archivi <http://dati.comune.milano.it/dataset/ds41_infogeo_biblioteche_localizzazione_2007>`__
                                              | `Localizzazione associazioni culturali <http://dati.comune.milano.it/dataset/ds76_infogeo_associazioni_localizzazione_>`__
 **Caricamento DAF e API (Obiettivi 1 e 3)**  Non ancora attivo
-**Monitoraggio (Obiettivo 5)**               | Il formato SHP ancora è non supportato dal DAF;
+**Monitoraggio (Obiettivo 5)**               | Il formato SHP non è ancora supportato dal DAF.
                                              | A breve saranno disponibili dati aggiornati in geojson
 ============================================ ====================================================================================================================================================================================================================================================================================
 
@@ -751,7 +748,8 @@ Obiettivo                                    Stato
                                              | `Luoghi e locali storici <http://aperto.comune.torino.it/?q=node/145>`__
                                              | `Affluenza del pubblico <http://www.fondazionetorinomusei.it/it/opendata>`__
                                              | `Torino musei <http://www.fondazionetorinomusei.it/it/opendata>`__
-**Caricamento DAF e API (Obiettivi 1 e 3)**  In corso verifiche con l’amministrazione per il caricamento dei dataset su DAF
+**Caricamento DAF e API (Obiettivi 1 e 3)**  | In corso verifiche con l’amministrazione
+                                             | per il caricamento dei dataset su DAF
 **Monitoraggio (Obiettivo 5)**
 ============================================ =================================================================================================================================================
 
@@ -785,14 +783,13 @@ Obiettivo                                    Stato
 ============================================ ===========================================================================================================================================================
 **Open Data (Obiettivo 2)**                  `Luoghi di interesse <https://opendata.comune.palermo.it/opendata-dataset.php?dataset=308>`__
 **Caricamento DAF e API (Obiettivi 1 e 3)**  Non ancora attivo
-**Monitoraggio (Obiettivo 5)**               | In attesa di risolvere un piccolo problema tecnico
-                                             | per harvesting. Il comune ha comunque prodotto
-                                             | i metadati conformi al profilo DCAT-AP_IT
-                                             | nonostante la presenza di un catalogo disponibile
-                                             | su piattaforma proprietaria
+**Monitoraggio (Obiettivo 5)**               | In attesa di harvesting finale sul catalogo nazionale.
+                                             | Il comune ha  prodotto i metadati conformi
+                                             | al profilo DCAT-AP_IT nonostante la presenza
+                                             | di un catalogo disponibile su piattaforma proprietaria
 ============================================ ===========================================================================================================================================================
 
-**Obiettivo 4**: Nell’ambito del lavoro di standardizzazione del DAF il modello di riferimento per questa tipologia di dati è Cultural-ON del MIBACT. L'ontologia Cultural-ON è stata rifattorizzata per consentire l’appartenenza della stessa alla rete OntoPiA (questo ha comportato una revisione della stessa ma solo per abilitare i collegamenti  alle altre ontologie della rete). Sono in corso di definizione alcuni vocabolari controllati in collaborazione con il MIBACT (e.g., vocabolario sulle aree disciplinari quali arte, architettura, storia, ecc.). Non tutte le amministrazioni rilasciano i dataset con metadati conformi al profilo DCAT-AP_IT. Tra quelle conformi si rilevano: Comune di Palermo, Comune di Milano, Firenze via DAF, MIBACT, Regione Toscana, Provincia Autonoma di Bolzano e Regione Emilia Romagna.
+**Obiettivo 4**: Nell’ambito del lavoro di standardizzazione del DAF il modello di riferimento per questa tipologia di dati è Cultural-ON del MIBACT. L'ontologia `Cultural-ON  <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/Cultural-ON/latest>`__ è stata rifattorizzata per consentire l’appartenenza della stessa alla rete OntoPiA (questo ha comportato una revisione della stessa ma solo per abilitare i collegamenti  alle altre ontologie della rete). Sono in corso di definizione alcuni vocabolari controllati in collaborazione con il MIBACT (e.g., vocabolario sulle aree disciplinari quali arte, architettura, storia, ecc.). Non tutte le amministrazioni rilasciano i dataset con metadati conformi al profilo DCAT-AP_IT. Tra quelle conformi si rilevano: Comune di Palermo, Comune di Milano, Firenze via DAF, MIBACT, Regione Toscana, Provincia Autonoma di Bolzano e Regione Emilia Romagna.
 
 
 
@@ -816,8 +813,8 @@ Regione Piemonte
 ============================================ =============================================================================================================================================================
 Obiettivo                                    Stato
 ============================================ =============================================================================================================================================================
-**Open Data (Obiettivo 2)**
-**Caricamento DAF e API (Obiettivi 1 e 3)**
+**Open Data (Obiettivo 2)**                  Dataset di alcuni dei comuni della regione
+**Caricamento DAF e API (Obiettivi 1 e 3)**  In attesa di harvesting finale nel catalogo nazionale
 **Monitoraggio (Obiettivo 5)**
 ============================================ =============================================================================================================================================================
 
@@ -830,8 +827,9 @@ Obiettivo                                    Stato
 **Open Data (Obiettivo 2)**                  | `Calendario sagre e fiere su areee pubbliche <https://www.dati.lombardia.it/Commercio/Calendario-sagre-e-fiere-su-area-pubblica/p2ig-bf59>`__
 **Caricamento DAF e API (Obiettivi 1 e 3)**  Non ancora attivo in attesa harvesting finale catalogo nazionale
 **Monitoraggio (Obiettivo 5)**               | La regione si sta predisponendo per la pubblicazione di metadati
-                                             | DCAT-AP_IT. Questo consentirà di implementare harvesting del catalogo
-                                             | della Regione e di portare i dati aperti all'interno del DAF.
+                                             | DCAT-AP_IT. Questo consentirà di implementare
+                                             | harvesting del catalogo della Regione
+                                             | e di portare poi i dati aperti all'interno del DAF.
 ============================================ =================================================================================================================================================
 
 
@@ -874,7 +872,7 @@ Provincia Autonoma di Trento
 Obiettivo                                    Stato
 ============================================ =================================================================================================================================================
 **Open Data (Obiettivo 2)**                  | `Eventi del comune di Trento e altri della PAT <https://dati.trentino.it/dataset/eventi-del-comune-di-trento>`__
-**Caricamento DAF e API (Obiettivi 1 e 3)**  In attesa di harvesting sul nuovo catalogo nazionale
+**Caricamento DAF e API (Obiettivi 1 e 3)**  In attesa di harvesting nel nuovo catalogo nazionale
 **Monitoraggio (Obiettivo 5)**
 ============================================ =================================================================================================================================================
 
@@ -926,7 +924,7 @@ Comune di Firenze
 ============================================ ===========================================================================================================================================================
 Obiettivo                                    Stato
 ============================================ ===========================================================================================================================================================
-**Open Data (Obiettivo 2)**                  | `Eventi <http://opendata.comune.fi.it/dataset/dataset_0337.html>`__
+**Open Data (Obiettivo 2)**                  `Eventi <http://opendata.comune.fi.it/dataset/dataset_0337.html>`__
 **Caricamento DAF e API (Obiettivi 1 e 3)**  Attivo con aggiornamento giornaliero
 **Monitoraggio (Obiettivo 5)**
 ============================================ ===========================================================================================================================================================
@@ -952,8 +950,8 @@ Obiettivo                                    Stato
 **Monitoraggio (Obiettivo 5)**
 ============================================ ======================================================================================================================================================
 
-**Obiettivo 4**: Nell’ambito del lavoro di standardizzazione del DAF il modello di riferimento per questa tipologia di dati è l’ontologia  Eventi pubblici, con il relativo vocabolario controllato sui tipi di Eventi Pubblici Si noti che tale ontologia è da considerarsi ancora instabile. E’ stato infatti istituito nei primi giorni di Febbraio 2018 un gruppo europeo per la definizione del cosiddetto Core Public Event Vocabulary. L’ontologia pertanto potrà subire modifiche in base ai risultati che emergeranno da tale gruppo di lavoro che vede un’ampia partecipazione italiana (AgID/Team, ANAC, Comune di Palermo, Comune di Udine, Provincia Autonoma di Trento e alcuni istituti del CNR).
-Ad esclusione della Regione Lombardia, per cui sono in atto le necessarie azioni per pubblicare metadati conformi al profilo, anche grazie all’ingestion nel DAF in alcuni casi, i dataset disponibili sono corredati di metadati conformi a DCAT-AP_IT.
+**Obiettivo 4**: Nell’ambito del lavoro di standardizzazione del DAF il modello di riferimento per questa tipologia di dati è l’ontologia  `Eventi pubblici <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/EventiPubblici/latest>`__, con il relativo vocabolario controllato sui `Tipi di Eventi Pubblici <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/public-event-types>`__ (quest'ultimo vocabolario è allineato anche all'ontologia schema.org). Si noti che l'ontologia degli Eventi Pubbilci è da considerarsi ancora instabile. E’ stato infatti istituito nei primi giorni di Febbraio 2018 un gruppo europeo per la definizione del cosiddetto Core Public Event Vocabulary. L’ontologia pertanto potrà subire modifiche in base ai risultati che emergeranno da tale gruppo di lavoro che vede un’ampia partecipazione italiana (AgID/Team, ANAC, Comune di Palermo, Comune di Udine, Provincia Autonoma di Trento e alcuni istituti del CNR).
+Ad esclusione della Regione Lombardia, per cui sono in atto le necessarie azioni per pubblicare metadati conformi al profilo, anche grazie all’ingestion nel DAF, i dataset disponibili sono corredati di metadati conformi a DCAT-AP_IT.
 
 
 
@@ -961,16 +959,16 @@ Catalogo generale dei beni culturali
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 "*Basi di dati sulle schede di catalogo dei beni culturali elaborati nel Sistema generale del Catalogo (SIGEC).*"
 
-Dettaglio per singole amministrazioni coinvolte nella Task Force #DatiPubblici
-
 Ministero dei Beni e delle Attività Culturali e del Turismo
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 ============================================ =============================================================================================================================================================
 Obiettivo                                    Stato
 ============================================ =============================================================================================================================================================
 **Open Data (Obiettivo 2)**                  `Open ICCD <http://www.catalogo.beniculturali.it/opendata/>`__
-**Caricamento DAF e API (Obiettivi 1 e 3)**
-**Monitoraggio (Obiettivo 5)**
+**Caricamento DAF e API (Obiettivi 1 e 3)**  In attesa di harvesting finale nel catalogo nazionale.
+**Monitoraggio (Obiettivo 5)**               | Il MIBACT, attraverso il portale dati.beniculturali.it,
+                                             | pubblica i metadati, conformi al profilo DCAT-AP_IT,
+                                             | di tutti i suoi dati (aperti e con licenze non aperte).
 ============================================ =============================================================================================================================================================
 
 Regione Piemonte
@@ -992,7 +990,13 @@ Obiettivo                                    Stato
 **Open Data (Obiettivo 2)**                  | `Architetture <https://www.dati.lombardia.it/Cultura/Architetture/kf9b-rj2t>`__
                                              | `Beni culturali Bella Lombardia <https://www.dati.lombardia.it/Cultura/Beni-culturali-Bella-Lombardia/4mr7-hfsh>`__
 **Caricamento DAF e API (Obiettivi 1 e 3)**
-**Monitoraggio (Obiettivo 5)**               Si sta predisponendo il flusso di ingestion DAF per interrogare web services della piattaforma della Regione. La Regione si sta predisponendo per l’esposizione dei metadati DCAT-AP_IT. Questo consentirà un più agevole harvesting dei dati nel catalogo nazionale dei dati aperti che potranno poi confluire nel DAF utilizzando flussi già attivi.
+**Monitoraggio (Obiettivo 5)**               | Si sta predisponendo il flusso di ingestion DAF
+                                             | per interrogare i web services della piattaforma della Regione.
+                                             | La Regione si sta predisponendo per l’esposizione dei
+                                             | metadati DCAT-AP_IT. Questo consentirà un più agevole
+                                             | harvesting dei dati nel catalogo nazionale
+                                             | che potranno poi confluire nel DAF utilizzando
+                                             | flussi già attivi.
 ============================================ =================================================================================================================================================
 
 
@@ -1024,7 +1028,7 @@ Regione Lazio
 Obiettivo                                    Stato
 ============================================ =================================================================================================================================================
 **Open Data (Obiettivo 2)**                  `Beni architettonici <http://dati.lazio.it/catalog/it/dataset/schede-dei-beni-architettonici-nella-regione-lazio>`__
-**Caricamento DAF e API (Obiettivi 1 e 3)**  In attesa di harvesting
+**Caricamento DAF e API (Obiettivi 1 e 3)**  In attesa di harvesting nel catalogo nazionale
 **Monitoraggio (Obiettivo 5)**
 ============================================ =================================================================================================================================================
 
@@ -1036,7 +1040,7 @@ Provincia Autonoma di Trento
 Obiettivo                                    Stato
 ============================================ =================================================================================================================================================
 **Open Data (Obiettivo 2)**                  `Catalogo Opere d’Arte <http://dati.trentino.it/dataset/catalogo-opere>`__
-**Caricamento DAF e API (Obiettivi 1 e 3)**  In attesa di harvesting
+**Caricamento DAF e API (Obiettivi 1 e 3)**  In attesa di harvesting nel catalogo nazionale
 **Monitoraggio (Obiettivo 5)**
 ============================================ =================================================================================================================================================
 
@@ -1046,7 +1050,7 @@ Provincia Autonoma di Bolzano
 Obiettivo                                    Stato
 ============================================ ======================================================================================================================================================
 **Open Data (Obiettivo 2)**                  `Catalogo dei Beni Culturali in Alto Adige <http://dati.retecivica.bz.it/it/dataset/catalogo-beni-culturali>`__
-**Caricamento DAF e API (Obiettivi 1 e 3)**
+**Caricamento DAF e API (Obiettivi 1 e 3)**  In attesa di harvesting finale nel catalogo nazionale
 **Monitoraggio (Obiettivo 5)**
 ============================================ ======================================================================================================================================================
 
@@ -1076,7 +1080,7 @@ Comune di Torino
 Obiettivo                                    Stato
 ============================================ =================================================================================================================================================
 **Open Data (Obiettivo 2)**                  `Beni della Fondazione Torino Musei <http://www.fondazionetorinomusei.it/it/opendata>`__
-**Caricamento DAF e API (Obiettivi 1 e 3)**
+**Caricamento DAF e API (Obiettivi 1 e 3)**  Non ancora attivo
 **Monitoraggio (Obiettivo 5)**
 ============================================ =================================================================================================================================================
 
@@ -1110,7 +1114,7 @@ Obiettivo                                    Stato
 **Monitoraggio (Obiettivo 5)**
 ============================================ ===========================================================================================================================================================
 
-**Obiettivo 4**: Negli scorsi mesi  il MIBACT ha lavorato per l’avvio di un progetto ampio di definizione di ontologie e dati aperti secondo gli standard del web semantico per il mondo dei beni culturali. Il progetto, avviato a fine novembre 2017,  si chiama `ArCo <http://dati.beniculturali.it/progetto-arco-architettura-della-conoscenza/>`__.
+**Obiettivo 4**: Negli scorsi mesi  il MIBACT ha lavorato per l’avvio di un progetto ampio di definizione di ontologie e dati aperti, secondo gli standard del web semantico, per il mondo dei beni culturali. Il progetto, avviato a fine novembre 2017,  si chiama `ArCo <http://dati.beniculturali.it/progetto-arco-architettura-della-conoscenza/>`__.
 Secondo il piano di sviluppo del progetto, una prima versione dell’ontologia per questa tipologia di dati è prevista a marzo 2018. Lo slittamento delle attività relative a questa tipologia di dati è dovuto principalmente al ritardo per il set up complessivo del progetto (reperimento dei fondi, definizione degli obiettivi, definizione degli accordi tra MIBACT e l’Istituto ISTC-CNR  per il supporto alla definizione delle ontologie e alla creazione dei linked open data), molto ampio e inquadrato nel progetto generale della Digital Library del MIBACT.  MIBACT, Province Autonome di Trento e Bolzano rilasciano dataset con metadati conformi a DCAT-AP_IT.
 
 
@@ -1119,7 +1123,7 @@ Cammini e percorsi
 ^^^^^^^^^^^^^^^^^^
 "*Base di dati contenente informazioni su itinerari e percorsi (e.g., via francigena). I percorsi e gli itinerari sono descritti in base al tipo di percorso, alle possibili tappe, ai territori attraversati, ecc...*"
 
-In generale si rileva che le amministrazioni, su questa tipologia di dati, non hanno ancora dataset consolidati, a parte alcune eccezioni di seguito riportate. Il dataset era stato concordato insieme al MIBACT (settore turismo). Si noti che il MIBACT ha lavorato in autonomia su questa tipologia di dati rilasciando un portale sui `cammini <http://www.camminiditalia.it/>`__. Tutti i dati del portale, salvo diversa indicazione e a eccezione dei marchi, immagini prodotte da terzi per cui si applicano le licenze dei terzi, sono rilasciati con licenza aperta CC BY 3.0. Tuttavia, si nota che i dati non sono liberamente scaricabili in bulk in un formato aperto, non sono interrogabili via API  e non sono corredati dei relativi metadati conformi al profilo nazionale DCAT-AP_IT.
+In generale si rileva che le amministrazioni, su questa tipologia di dati, non hanno ancora dataset consolidati, a parte alcune eccezioni di seguito riportate. Il dataset era stato concordato insieme al MIBACT (settore turismo). Si noti che il MIBACT ha lavorato in autonomia su questa tipologia di dati rilasciando un portale sui `cammini <http://www.camminiditalia.it/>`__. Tutti i dati del portale, salvo diversa indicazione e a eccezione dei marchi, immagini prodotte da terzi per cui si applicano le licenze dei terzi, sono rilasciati con licenza aperta CC BY 3.0. Tuttavia, si evidenzia che i dati non sono liberamente scaricabili in bulk in un formato aperto, non sono interrogabili via API  e non sono corredati dei relativi metadati conformi al profilo nazionale DCAT-AP_IT.
 
 Regione Piemonte
 """"""""""""""""
@@ -1160,7 +1164,7 @@ Regione Toscana
 Obiettivo                                    Stato
 ============================================ =================================================================================================================================================
 **Open Data (Obiettivo 2)**                  `Access point wifi via Francigena <http://dati.toscana.it/dataset/regione-toscana-elenco-access-point-wifi-via-francigena>`__
-**Caricamento DAF e API (Obiettivi 1 e 3)**  In attesa di harvesting
+**Caricamento DAF e API (Obiettivi 1 e 3)**  In attesa di harvesting finale nel catalogo nazionale
 **Monitoraggio (Obiettivo 5)**
 ============================================ =================================================================================================================================================
 
@@ -1194,7 +1198,7 @@ Obiettivo                                    Stato
 ============================================ ======================================================================================================================================================
 **Open Data (Obiettivo 2)**                  | `Percorsi MountainBike <http://dati.retecivica.bz.it/it/dataset/rete-viaria-percorsi-mtb-ufficialmente-riconosciuti>`__
                                              | `Percorsi escursionistici <http://dati.retecivica.bz.it/it/dataset/rete-viaria-percorsi-escursionistici>`__
-**Caricamento DAF e API (Obiettivi 1 e 3)**  In corso.
+**Caricamento DAF e API (Obiettivi 1 e 3)**  Il caricamento nel DAF è in corso
 **Monitoraggio (Obiettivo 5)**
 ============================================ ======================================================================================================================================================
 
@@ -1234,8 +1238,8 @@ Comune di Firenze
 Obiettivo                                    Stato
 ============================================ ===========================================================================================================================================================
 **Open Data (Obiettivo 2)**                  | `Walking city <http://opendata.comune.fi.it/cultura_turismo/dataset_0391.html>`__
-**Caricamento DAF e API (Obiettivi 1 e 3)**
-**Monitoraggio (Obiettivo 5)**
+**Caricamento DAF e API (Obiettivi 1 e 3)**  Non ancora attivo
+**Monitoraggio (Obiettivo 5)**               Il formato KMZ non è supportato dal DAF
 ============================================ ===========================================================================================================================================================
 
 Comune di Bari
@@ -1259,7 +1263,7 @@ Obiettivo                                    Stato
 ============================================ ===========================================================================================================================================================
 
 
-**Obiettivo 4**: Non è al momento presente, nella rete OntoPiA, un’ontologia di dominio per i cammini. Una parte dei dati  può essere modellata utilizzando sia l’ontologia dei punti di interesse sia l’ontologia dei luoghi/indirizzi, sia l’ontologia dei social media/internet che include la possibilità di modellare oggetti con associate immagini e riferimenti online.
+**Obiettivo 4**: Non è al momento presente, nella rete `OntoPiA <https://github.com/italia/daf-ontologie-vocabolari-controllati>`__, un’ontologia di dominio per i cammini. *Una parte dei dati* può essere modellata utilizzando sia l’ontologia dei `punti di interesse <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/PuntoDiInteresse/latest>`__ sia l’ontologia dei `luoghi/indirizzi <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/CLV/latest>`__, sia l’ontologia dei `social media/internet <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/SM/latest>`__ che include la possibilità di modellare oggetti con associate immagini e riferimenti online.
 
 Strutture ricettive
 ^^^^^^^^^^^^^^^^^^^
@@ -1270,32 +1274,33 @@ Regione Piemonte
 ============================================ =============================================================================================================================================================
 Obiettivo                                    Stato
 ============================================ =============================================================================================================================================================
-**Open Data (Obiettivo 2)**                  | `Ricettività turistica <http://www.dati.piemonte.it/catalogodati/dato/101074-.html>`__
-**Caricamento DAF e API (Obiettivi 1 e 3)**  | In attesa di harvesting
+**Open Data (Obiettivo 2)**                  `Ricettività turistica <http://www.dati.piemonte.it/catalogodati/dato/101074-.html>`__
+**Caricamento DAF e API (Obiettivi 1 e 3)**  In attesa di harvesting finale nel catalogo nazionale
 **Monitoraggio (Obiettivo 5)**
 ============================================ =============================================================================================================================================================
 
 
 Regione Lombardia
 """""""""""""""""
-============================================ =================================================================================================================================================
+============================================ =============================================================================================================================================================
 Obiettivo                                    Stato
-============================================ =================================================================================================================================================
-**Open Data (Obiettivo 2)**                  | `Strutture ricettive alberghiere ed extra alberghiere <https://www.dati.lombardia.it/Turismo/Strutture-Ricettive-Alberghiere-e-extra-alberghier/745d-3uyg>`__
-**Caricamento DAF e API (Obiettivi 1 e 3)**  | Non ancora attivo
-**Monitoraggio (Obiettivo 5)**
-============================================ =================================================================================================================================================
+============================================ =============================================================================================================================================================
+**Open Data (Obiettivo 2)**                  `Strutture ricettive alberghiere ed extra alberghiere <https://www.dati.lombardia.it/Turismo/Strutture-Ricettive-Alberghiere-e-extra-alberghier/745d-3uyg>`__
+**Caricamento DAF e API (Obiettivi 1 e 3)**  Non ancora attivo
+**Monitoraggio (Obiettivo 5)**               | Stesse motivazioni precedentemente
+                                             | riportate per altri dataset della regione
+============================================ =============================================================================================================================================================
 
 
 Regione Emilia-Romagna
 """"""""""""""""""""""
-============================================ =================================================================================================================================================
+============================================ ===================================================================================================================================================================================
 Obiettivo                                    Stato
-============================================ =================================================================================================================================================
-**Open Data (Obiettivo 2)**                  | `Strutture ricettive regionali alberghiere ed extra-alberghiere <http://dati.emilia-romagna.it/dataset/strutture-ricettive-regionali-alberghiere-ed-extra-alberghiere--6005440e>`__
-**Caricamento DAF e API (Obiettivi 1 e 3)**  | Aggiornamento harvesting su catalogo nazionale in corso
+============================================ ===================================================================================================================================================================================
+**Open Data (Obiettivo 2)**                  `Strutture ricettive regionali alberghiere ed extra-alberghiere <http://dati.emilia-romagna.it/dataset/strutture-ricettive-regionali-alberghiere-ed-extra-alberghiere--6005440e>`__
+**Caricamento DAF e API (Obiettivi 1 e 3)**  In attesa di harvesting finale nel catalogo nazionale
 **Monitoraggio (Obiettivo 5)**
-============================================ =================================================================================================================================================
+============================================ ===================================================================================================================================================================================
 
 
 Regione Toscana
@@ -1303,8 +1308,8 @@ Regione Toscana
 ============================================ =================================================================================================================================================
 Obiettivo                                    Stato
 ============================================ =================================================================================================================================================
-**Open Data (Obiettivo 2)**                  | `Strutture ricettive <http://dati.toscana.it/dataset/rt-strutric>`__
-**Caricamento DAF e API (Obiettivi 1 e 3)**  | In attesa di harvesting
+**Open Data (Obiettivo 2)**                  `Strutture ricettive <http://dati.toscana.it/dataset/rt-strutric>`__
+**Caricamento DAF e API (Obiettivi 1 e 3)**  In attesa di harvesting finale nel catalogo nazionale
 **Monitoraggio (Obiettivo 5)**
 ============================================ =================================================================================================================================================
 
@@ -1314,8 +1319,8 @@ Regione Lazio
 ============================================ =================================================================================================================================================
 Obiettivo                                    Stato
 ============================================ =================================================================================================================================================
-**Open Data (Obiettivo 2)**                  | Dati aggregati sulle strutture turistiche
-**Caricamento DAF e API (Obiettivi 1 e 3)**  | In attesa di harvesting
+**Open Data (Obiettivo 2)**                  Dati aggregati sulle strutture turistiche
+**Caricamento DAF e API (Obiettivi 1 e 3)**  In attesa di harvesting finale nel catalogo nazionale
 **Monitoraggio (Obiettivo 5)**
 ============================================ =================================================================================================================================================
 
@@ -1329,8 +1334,9 @@ Obiettivo                                    Stato
 **Open Data (Obiettivo 2)**                  | `Agriturismi <https://dati.trentino.it/dataset/agriturismi-del-trentino>`__,
                                              | `Esercizi alberghieri <https://dati.trentino.it/dataset/esercizi-alberghieri>`__,
                                              | `Esercizi extra alberghieri <https://dati.trentino.it/dataset/esercizi-extra-alberghieri>`__
-**Caricamento DAF e API (Obiettivi 1 e 3)**  | In attesa di harvesting per i CSV. XML da convertire in CSV/Json
-**Monitoraggio (Obiettivo 5)**
+**Caricamento DAF e API (Obiettivi 1 e 3)**  In attesa di harvesting per i file CSV.
+**Monitoraggio (Obiettivo 5)**               | Il formato XML non è ancora supportato dal DAF
+                                             | l'XML è quindi da convertire in CSV/Json
 ============================================ =================================================================================================================================================
 
 Provincia Autonoma di Bolzano
@@ -1338,8 +1344,8 @@ Provincia Autonoma di Bolzano
 ============================================ ======================================================================================================================================================
 Obiettivo                                    Stato
 ============================================ ======================================================================================================================================================
-**Open Data (Obiettivo 2)**                  | `Rifugi alpini <http://dati.retecivica.bz.it/it/dataset/rifugi-dell-alto-adige>`__
-**Caricamento DAF e API (Obiettivi 1 e 3)**  | In attesa di harvesting
+**Open Data (Obiettivo 2)**                  `Rifugi alpini <http://dati.retecivica.bz.it/it/dataset/rifugi-dell-alto-adige>`__
+**Caricamento DAF e API (Obiettivi 1 e 3)**  In attesa di harvesting finale nel catalogo nazionale
 **Monitoraggio (Obiettivo 5)**
 ============================================ ======================================================================================================================================================
 
@@ -1348,8 +1354,9 @@ Roma Capitale
 ============================================ =================================================================================================================================================
 Obiettivo                                    Stato
 ============================================ =================================================================================================================================================
-**Open Data (Obiettivo 2)**                  | `Strutture ricettive <http://dati.comune.roma.it/cms/it/dettaglio_turismo_e_mob.page?contentId=DTS10075>`__
-**Caricamento DAF e API (Obiettivi 1 e 3)**  | Nuovi dataset pubblicati mensilmente da unire e caricare su DAF
+**Open Data (Obiettivo 2)**                  `Strutture ricettive <http://dati.comune.roma.it/cms/it/dettaglio_turismo_e_mob.page?contentId=DTS10075>`__
+**Caricamento DAF e API (Obiettivi 1 e 3)**  | Nuovi dataset pubblicati mensilmente sono da unire
+                                             | per poi essere caricati nel DAF
 **Monitoraggio (Obiettivo 5)**
 ============================================ =================================================================================================================================================
 
@@ -1359,9 +1366,11 @@ Comune di Milano
 ============================================ =================================================================================================================================================
 Obiettivo                                    Stato
 ============================================ =================================================================================================================================================
-**Open Data (Obiettivo 2)**                  | Strutture ricettive `alberghiere <http://dati.comune.milano.it/dataset/ds48_turismotempolibero_strutture_ricettive_alberghiere_2015>`__, `extra-alberghiere <http://dati.comune.milano.it/dataset/ds318-turismotempolibero-strutture-ricettive-extra-alberghiere-2015>`__, `case per ferie e altro <http://dati.comune.milano.it/dataset/ds317-turismotempolibero-case-ferie-altre-strutture-2015>`__
-**Caricamento DAF e API (Obiettivi 1 e 3)**  | In attesa di harvesting
-**Monitoraggio (Obiettivo 5)**               | Dati del 2015 anche se il dataset è di recente pubblicazione
+**Open Data (Obiettivo 2)**                  | Strutture ricettive `alberghiere <http://dati.comune.milano.it/dataset/ds48_turismotempolibero_strutture_ricettive_alberghiere_2015>`__,
+                                             | `extra-alberghiere <http://dati.comune.milano.it/dataset/ds318-turismotempolibero-strutture-ricettive-extra-alberghiere-2015>`__,
+                                             | `case per ferie e altro <http://dati.comune.milano.it/dataset/ds317-turismotempolibero-case-ferie-altre-strutture-2015>`__
+**Caricamento DAF e API (Obiettivi 1 e 3)**  In attesa di harvesting finale nel catalogo nazionale
+**Monitoraggio (Obiettivo 5)**               Dati del 2015 anche se il dataset è di recente pubblicazione
 ============================================ =================================================================================================================================================
 
 Comune di Torino
@@ -1369,9 +1378,9 @@ Comune di Torino
 ============================================ =================================================================================================================================================
 Obiettivo                                    Stato
 ============================================ =================================================================================================================================================
-**Open Data (Obiettivo 2)**                  | dati disponibili sul portale regionale
-**Caricamento DAF e API (Obiettivi 1 e 3)**  |
-**Monitoraggio (Obiettivo 5)**               |
+**Open Data (Obiettivo 2)**                  I dati sono disponibili sul portale regionale
+**Caricamento DAF e API (Obiettivi 1 e 3)**
+**Monitoraggio (Obiettivo 5)**
 ============================================ =================================================================================================================================================
 
 Comune di Firenze
@@ -1379,9 +1388,9 @@ Comune di Firenze
 ============================================ ===========================================================================================================================================================
 Obiettivo                                    Stato
 ============================================ ===========================================================================================================================================================
-**Open Data (Obiettivo 2)**                  | dati disponibili sul portale regionale
-**Caricamento DAF e API (Obiettivi 1 e 3)**  |
-**Monitoraggio (Obiettivo 5)**               |
+**Open Data (Obiettivo 2)**                  I dati disponibili sul portale regionale
+**Caricamento DAF e API (Obiettivi 1 e 3)**
+**Monitoraggio (Obiettivo 5)**
 ============================================ ===========================================================================================================================================================
 
 Comune di Bari
@@ -1389,9 +1398,9 @@ Comune di Bari
 ============================================ ===========================================================================================================================================================
 Obiettivo                                    Stato
 ============================================ ===========================================================================================================================================================
-**Open Data (Obiettivo 2)**                  | dati non disponibili
+**Open Data (Obiettivo 2)**                  I dati non sono disponibili
 **Caricamento DAF e API (Obiettivi 1 e 3)**
-**Monitoraggio (Obiettivo 5)**               |
+**Monitoraggio (Obiettivo 5)**
 ============================================ ===========================================================================================================================================================
 
 Comune di Palermo
@@ -1399,46 +1408,58 @@ Comune di Palermo
 ============================================ ===========================================================================================================================================================
 Obiettivo                                    Stato
 ============================================ ===========================================================================================================================================================
-**Open Data (Obiettivo 2)**                  | `Luoghi di accoglienza <https://opendata.comune.palermo.it/opendata-dataset.php?dataset=306>`__
-**Caricamento DAF e API (Obiettivi 1 e 3)**  | In attesa di harvesting
+**Open Data (Obiettivo 2)**                  `Luoghi di accoglienza <https://opendata.comune.palermo.it/opendata-dataset.php?dataset=306>`__
+**Caricamento DAF e API (Obiettivi 1 e 3)**  In attesa di harvesting finale nel catalogo nazionale
 **Monitoraggio (Obiettivo 5)**
 ============================================ ===========================================================================================================================================================
 
+**Obiettivo 4**: nell’ambito della rete `OntoPiA <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/SM/latest>`__ di ontologie e vocabolari controllati per la pubblica amministrazione è stata creata l’ontologia `Strutture ricettive <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/StruttureRicettive/latest>`__ con i relativi `vocabolari controllati <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-accommodation-facilities>`__.
+
+
 Guide turistiche
 ^^^^^^^^^^^^^^^^
-"*Base di dati contenente le principali informazioni sulle Guide Turistiche abilitate d’Italia.
-In generale si nota che i dati sono spesso non disponibili in modo strutturato.*"
+"*Base di dati contenente le principali informazioni sulle Guide Turistiche abilitate d’Italia.*""
 
-Si è constatato che attualmente a livello locale la situazione è particolarmente variegata: sembra che il dato fosse in precedenza di competenza delle province, ora talvolta è in capo alle città metropolitane, in altri casi alle regioni. Per questo motivo sono raramente disponibili come open data o, quando lo sono, i dati spesso non sono aggiornati. Di seguito si riportano le sole amministrazioni per le quali è presente il dataset in qualche forma:
+
+Si è constatato che la competenza su tale tipologia di dati a livello locale è piuttosto disomegenea e dipende da regione e regione.
+Il dato è in generale di competenza delle province. Con il riordino delle stesse, la competenza è passata in taluni casi alle città metropolitane (che però non fanno parte della Task Force #DatiPubblici), in altri casi alle regioni stesse (e.g., regione Liguria).
+In generale si nota che i dati non sono spesso disponibili in modo strutturato, non sono in open data e quando lo sono, non risultano sempre aggiornati.
+Il dataset era stato discusso insieme al Ministero dei Beni e delle Attività Culturali e del Turismo (settore turismo) che poteva essere la giusta leva centrale per la raccolta e apertura di questa tipologia di dati. Tuttavia i colloqui non hanno più avuto seguito.
+
+Sotto si riportano le sole amministrazioni per le quali è presente il dataset in una qualche forma:
 
 Regione Lombardia
 """""""""""""""""
 ============================================ =================================================================================================================================================
 Obiettivo                                    Stato
 ============================================ =================================================================================================================================================
-**Open Data (Obiettivo 2)**                  | `Elenco guide alpine <https://www.dati.lombardia.it/Sport/Elenco-Guide-Alpine/ixav-aubn>`__
-**Caricamento DAF e API (Obiettivi 1 e 3)**  | Non ancora attivo
-**Monitoraggio (Obiettivo 5)**               | Dati del 2014
+**Open Data (Obiettivo 2)**                  `Elenco guide alpine <https://www.dati.lombardia.it/Sport/Elenco-Guide-Alpine/ixav-aubn>`__
+**Caricamento DAF e API (Obiettivi 1 e 3)**  | Non ancora attivo.
+                                             | In attesa di harvesting nel catalogo nazionale
+**Monitoraggio (Obiettivo 5)**               I dati sono comunque del 2014
 ============================================ =================================================================================================================================================
 
 Regione Toscana
 """""""""""""""
-============================================ =================================================================================================================================================
+============================================ ==============================================================================================================================================================
 Obiettivo                                    Stato
-============================================ =================================================================================================================================================
-**Open Data (Obiettivo 2)**                  | `Guide turistiche e ambientali, accompagnatori e guide alpine <http://www.regione.toscana.it/-/guide-turistiche-e-ambientali-accompagnatori-e-guide-alpine>`__
-**Caricamento DAF e API (Obiettivi 1 e 3)**  | Non attivo
-**Monitoraggio (Obiettivo 5)**               | Dati in xslx
-============================================ =================================================================================================================================================
+============================================ ==============================================================================================================================================================
+**Open Data (Obiettivo 2)**                  `Guide turistiche e ambientali, accompagnatori e guide alpine <http://www.regione.toscana.it/-/guide-turistiche-e-ambientali-accompagnatori-e-guide-alpine>`__
+**Caricamento DAF e API (Obiettivi 1 e 3)**  | Non ancora attivo;
+                                             | in attesa di harvesting finale nel catalogo nazionale
+**Monitoraggio (Obiettivo 5)**
+============================================ ==============================================================================================================================================================
 
 Comune di Torino
 """"""""""""""""
 ============================================ =================================================================================================================================================
 Obiettivo                                    Stato
 ============================================ =================================================================================================================================================
-**Open Data (Obiettivo 2)**                  | `Guide turistiche <http://www.cittametropolitana.torino.it/turismo/guide/>`__
-**Caricamento DAF e API (Obiettivi 1 e 3)**  | Non attivo
-**Monitoraggio (Obiettivo 5)**               | Dati della città metropolitana in xsl, non aggiornati
+**Open Data (Obiettivo 2)**                  `Guide turistiche <http://www.cittametropolitana.torino.it/turismo/guide/>`__
+**Caricamento DAF e API (Obiettivi 1 e 3)**  Non attivo
+**Monitoraggio (Obiettivo 5)**               | I dati sono della città metropolitana,
+                                             | sono disponibili in formato non aperto XSL
+                                             | e non sono aggiornati
 ============================================ =================================================================================================================================================
 
 Comune di Bari
@@ -1446,9 +1467,9 @@ Comune di Bari
 ============================================ =================================================================================================================================================
 Obiettivo                                    Stato
 ============================================ =================================================================================================================================================
-**Open Data (Obiettivo 2)**                  | `Guide turistiche <http://opendata.comune.bari.it/dataset/guide-turistiche-del-comune-di-bari>`__
-**Caricamento DAF e API (Obiettivi 1 e 3)**  | In attesa di harvesting
-**Monitoraggio (Obiettivo 5)**               | Dati del 2012
+**Open Data (Obiettivo 2)**                  `Guide turistiche <http://opendata.comune.bari.it/dataset/guide-turistiche-del-comune-di-bari>`__
+**Caricamento DAF e API (Obiettivi 1 e 3)**  In attesa di harvesting finale nel catalogo nazionale
+**Monitoraggio (Obiettivo 5)**               I dati sono comunque del 2012
 ============================================ =================================================================================================================================================
 
 
@@ -1467,11 +1488,13 @@ Obiettivo                                     Stato
                                               | considerare i dati come dati aperti
 **Caricamento nel DAF (Obiettivo 1)**         | Al momento non abbiamo notizie da InfoCamere, con cui le
                                               | comunicazioni si sono interrotte in data xxx.
-**Disponibilità di API (Obiettivo 3)**        Al meglio delle nostre conoscenze non è attualmente raggiunto
+**Disponibilità di API (Obiettivo 3)**        | Al meglio delle nostre conoscenze non
+                                              | è attualmente corredato di API
 **Modellazione dati (Obiettivo 4)**           | Nell’ambito della rete `OntoPiA <https://github.com/italia/daf-ontologie-vocabolari-controllati>`__
                                               | di ontologie e vocabolari controllati per la pubblica amministrazione
-                                              | l’ontologia delle `organizzazioni (parte privata) <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/COV/latest>`__ può essere usata per la modellazione di questi dati.
-                                              | Il dataset non al momento corredato di metadati conformi al profilo DCAT-AP_IT
+                                              | l’ontologia delle `organizzazioni (parte privata) <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/COV/latest>`__
+                                              | può essere usata per la modellazione di questi dati.
+                                              | Il dataset non al momento corredato di metadati DCAT-AP_IT
 ============================================= ======================================================================================================================================================================================================================================================================================
 
 
@@ -1487,11 +1510,13 @@ Obiettivo                                     Stato
                                               | considerare i dati come dati aperti
 **Caricamento nel DAF (Obiettivo 1)**         | Al momento non abbiamo notizie da InfoCamere, con cui le
                                               | comunicazioni si sono interrotte in data xxx.
-**Disponibilità di API (Obiettivo 3)**        Al meglio delle nostre conoscenze non è attualmente raggiunto
+**Disponibilità di API (Obiettivo 3)**        | Al meglio delle nostre conoscenze non
+                                              | è attualmente corredato di API
 **Modellazione dati (Obiettivo 4)**           | Nell’ambito della rete `OntoPiA <https://github.com/italia/daf-ontologie-vocabolari-controllati>`__
                                               | di ontologie e vocabolari controllati per la pubblica amministrazione
-                                              | l’ontologia delle `organizzazioni (parte privata) <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/COV/latest>`__ può essere usata per la modellazione di *una parte di questi dati*.
-                                              | Il dataset non al momento corredato di metadati conformi al profilo DCAT-AP_IT
+                                              | l’ontologia delle `organizzazioni (parte privata) <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/COV/latest>`__
+                                              | può essere usata per la modellazione di *una parte di questi dati*.
+                                              | Il dataset non al momento corredato di metadati DCAT-AP_IT
 ============================================= ======================================================================================================================================================================================================================================================================================
 
 
@@ -1509,11 +1534,13 @@ Obiettivo                                     Stato
                                               | aperti by default.
 **Caricamento nel DAF (Obiettivo 1)**         | Al momento non abbiamo notizie da InfoCamere, con cui le
                                               | comunicazioni si sono interrotte in data xxx.
-**Disponibilità di API (Obiettivo 3)**        Al meglio delle nostre conoscenze non è attualmente raggiunto
+**Disponibilità di API (Obiettivo 3)**        | Al meglio delle nostre conoscenze non
+                                              | è attualmente corredato di API
 **Modellazione dati (Obiettivo 4)**           | Nell’ambito della rete `OntoPiA <https://github.com/italia/daf-ontologie-vocabolari-controllati>`__
                                               | di ontologie e vocabolari controllati per la pubblica amministrazione
-                                              | l’ontologia delle `organizzazioni (parte privata) <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/COV/latest>`__ può essere usata per la modellazione di *una parte di questi dati*.
-                                              | Il dataset non al momento corredato di metadati conformi al profilo DCAT-AP_IT
+                                              | l’ontologia delle `organizzazioni (parte privata) <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/COV/latest>`__
+                                              | può essere usata per la modellazione di *una parte di questi dati*.
+                                              | Il dataset non al momento corredato di metadati DCAT-AP_IT
 ============================================= ======================================================================================================================================================================================================================================================================================
 
 
@@ -1530,8 +1557,9 @@ Obiettivo                                     Stato
 **Disponibilità di API (Obiettivo 3)**        Sì attraverso il DAF
 **Modellazione dati (Obiettivo 4)**           | Nell’ambito della rete `OntoPiA <https://github.com/italia/daf-ontologie-vocabolari-controllati>`__
                                               | di ontologie e vocabolari controllati per la pubblica amministrazione
-                                              | l’ontologia dei luoghi/indirizzi può essere usata per la modellazione di *una parte di questi dati*.
-                                              | Il dataset è corredato di metadati conformi al profilo DCAT-AP_IT via DAF
+                                              | l’ontologia dei luoghi/indirizzi può essere usata per la modellazione
+                                              | di *una parte di questi dati*. Il dataset è corredato di metadati
+                                              | conformi al profilo DCAT-AP_IT via DAF
 ============================================= ======================================================================================================================================================================================================================================================================================
 
 
@@ -1617,9 +1645,8 @@ Alcune delle sperimentazioni in corso su dati pubblici coinvolgono:
 10. Presidenza del Consiglio dei Ministri DIPE - OpenCUP
 11. SOSE - Fabbisogni e spesa dei comuni e province (OpenCivitas)
 12. Comune di Torino - Segnalazioni Contact Center
-13. Comune di Firenze - Stato colonnine di ricarica veicoli elettrici
-14. ANAC - Appalti e contratti. In corso di definizione l’ontologia sui contratti pubblici e appalti per la modellazione di questa tipologia di dati
-15. UNIBO
+13. ANAC - Appalti e contratti. In corso di definizione l’ontologia sui contratti pubblici e appalti per la modellazione di questa tipologia di dati
+14. UNIBO - In corso di definizione i casi d'uso sui dati aperti dell'Università di Bologna
 
 
 Conclusioni finali
