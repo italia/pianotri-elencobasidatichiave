@@ -5,7 +5,7 @@ Questo documento rappresenta il risultato dell'azione "Individuazione delle basi
 
 Il documento include anche il rapporto di monitoraggio al 31/12/2017 relativo al raggiungimento degli obiettivi indicati.
 
-**LICENZA:** `CC-BY 4.0 (Creative Commons Attribution) <https://creativecommons.org/licenses/by/4.0/>`__.
+**LICENZA:** `CC0 1.0 <https://creativecommons.org/publicdomain/zero/1.0/>`__.
 
 Indice dei contenuti
 --------------------

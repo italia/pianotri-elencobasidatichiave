@@ -1,7 +1,7 @@
 Stato di apertura e pubblicazione delle basi di dati chiave
 ===========================================================
 
-Lo scopo di questa sezione è dettagliare lo stato di apertura, al 31/12/2017 e secondo il paradigma degli open data, delle basi dati chiave come riportate in `Elenco basi di dati chiave <elencobasidati.html>`__”, specie in relazione agli `Obiettivi <obiettivi.html>`__ identificati per il 2017. Il lavoro, coordinato dal Team Digitale e dall’Agenzia per l’Italia Digitale (AgID), ha coinvolto alcune amministrazioni centrali e locali, quest’ultime afferenti alla Task Force #DatiPubblici.
+Lo scopo di questa sezione è dettagliare lo stato di apertura, al 28/02/2018 e secondo il paradigma degli open data, delle basi dati chiave come riportate in `Elenco basi di dati chiave <elencobasidati.html>`__”, specie in relazione agli `Obiettivi <obiettivi.html>`__ identificati per il 2017. Il lavoro, coordinato dal Team Digitale e dall’Agenzia per l’Italia Digitale (AgID), ha coinvolto alcune amministrazioni centrali e locali, quest’ultime afferenti alla Task Force #DatiPubblici.
 
 Per ciascuna base di dati sono fornite le seguenti informazioni:
 
