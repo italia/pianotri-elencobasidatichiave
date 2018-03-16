@@ -11,7 +11,7 @@ Per ciascuna base di dati sono fornite le seguenti informazioni:
 4. Disponibilità di modelli/ontologie e di vocabolari controllati, nonché di metadati conformi al profilo DCAT-AP_IT (Obiettivo 4);
 5. Informazioni di monitoraggio, anche rispetto a eventuali ritardi riscontrati per la loro apertura (e.g., data entro la quale il dataset sarà disponibile come open data sul DAF, e motivazioni del ritardo della pubblicazione) (parte dell'Obiettivo 5)
 
-I primi 3 obiettivi (i.e., caricamento nel DAF, apertura dei dati via DAF e disponibilità di API) sono strettamente collegati allo stato di implementazione dell’infrastruttura tecnologica del DAF e alla relativa sperimentazione. Il processo di identificazione della pubblica amministrazione che prenderà in carico l'intera piattaforma DAF non è ancora concluso; conseguentemente diverse attività di rilascio ad essa inerenti sono state posticipate. Si ricorda che l’articolo 50-ter del nuovo Codice dell'Amministrazione Digitale (CAD) prevede che, fino a quando non sarà identificata la futura pubblica amministrazione titolare del DAF, lo sviluppo e la gestione della piattaforma siano affidati alla struttura commissariale presso la Presidenza del Consiglio dei Ministri. Durante questa fase, la struttura commissariale lavorerà al meglio delle proprie possibilità, utilizzando le risorse disponibili, al fine di consegnare alla futura Amministrazione titolare il miglior prodotto possibile. Sulla base di questo nuovo scenario, sarà inoltre aggiornato, quanto prima, `il piano di sviluppo del DAF <http://daf-piano-di-sviluppo.readthedocs.io/it/latest/roadmap.html>`__.
+I primi 3 obiettivi (i.e., caricamento nel DAF, apertura dei dati via DAF e disponibilità di API) sono strettamente collegati allo stato di implementazione dell’infrastruttura tecnologica del DAF e alla relativa sperimentazione. Il processo di identificazione della pubblica amministrazione che prenderà in carico l'intera piattaforma DAF non è ancora concluso; conseguentemente diverse attività di rilascio ad essa inerenti sono state posticipate. Si ricorda che l’articolo 50-ter del nuovo Codice dell'Amministrazione Digitale (CAD) prevede che, fino a quando non sarà identificata la futura pubblica amministrazione titolare del DAF, lo sviluppo e la gestione della piattaforma siano affidati alla struttura commissariale presso la Presidenza del Consiglio dei Ministri. Durante questa fase, la struttura commissariale lavorerà al meglio delle proprie possibilità, utilizzando le risorse disponibili, al fine di consegnare alla futura Amministrazione titolare il miglior prodotto possibile. Sulla base di questo nuovo scenario, sarà inoltre aggiornato, a breve, `il piano di sviluppo del DAF <http://daf-piano-di-sviluppo.readthedocs.io/it/latest/roadmap.html>`__.
 
 In ogni caso, i dataset già caricati nel DAF, e quelli che lo saranno nelle prossime settimane, risulteranno automaticamente aderenti al profilo di metadatazione DCAT-AP_IT (parte dell’Obiettivo 4) e disporranno di API per l’interrogazione (Obiettivo 3).
 
@@ -454,8 +454,8 @@ Obiettivo                                    Stato
 ============================================ ===========================================================================================================================================================
 **Open Data (Obiettivo 2)**                  | Fermate
 **Caricamento DAF e API (Obiettivi 1 e 3)**  Attivo con aggiornamento giornaliero
-**Monitoraggio (Obiettivo 5)**               | Sebbene attivo l'ingestion, non è ancora possibile pubblicare i dati
-                                             | in open data perché i dati sono dati forniti giornalmente dal
+**Monitoraggio (Obiettivo 5)**               | Sebbene l'ingestion sia attivo, non è ancora possibile pubblicare i dati
+                                             | in open data perché i dati sono forniti giornalmente dal
                                              | supervisore del traffico della città Metropolitana. Si stanno
                                              | prendendo contatti per stimolare l'apertura dei dati via DAF.
 ============================================ ===========================================================================================================================================================
@@ -628,7 +628,7 @@ Obiettivo                                    Stato
 **Caricamento DAF e API (Obiettivi 1 e 3)**  Non ancora attivo
 **Monitoraggio (Obiettivo 5)**               | Il dataset indicato porta a una "pagina non trovata"
                                              | nel catalogo dei dati aperti.
-                                             | La Regione, mediante il CSI Piemonte sta attualmente verificando
+                                             | La Regione, mediante il CSI Piemonte, sta attualmente verificando
 ============================================ =============================================================================================================================================================
 
 
@@ -910,13 +910,15 @@ Obiettivo                                    Stato
 
 Comune di Torino
 """"""""""""""""
-============================================ ======================================================================================================================================================
+============================================ ===================================================================================================================================================================
 Obiettivo                                    Stato
-============================================ ======================================================================================================================================================
+============================================ ===================================================================================================================================================================
 **Open Data (Obiettivo 2)**                  Dati non disponibili presso l'amministrazione
 **Caricamento DAF e API (Obiettivi 1 e 3)**
-**Monitoraggio (Obiettivo 5)**
-============================================ ======================================================================================================================================================
+**Monitoraggio (Obiettivo 5)**               | L'amministrazione tuttavia ha comunicato che
+                                             | i differenti siti tendono a non esporre questi dati
+                                             | in modalitá web; tuttavia esistono `feed <http://feeds.feedburner.com/piemonte-expo-eventi>`__ e `file calendario ics <http://www.piemonteexpo.it/events.ics>`__
+============================================ ===================================================================================================================================================================
 
 
 Comune di Firenze
@@ -1224,13 +1226,15 @@ Obiettivo                                    Stato
 
 Comune di Torino
 """"""""""""""""
-============================================ =================================================================================================================================================
+============================================ ================================================================================================================================================================
 Obiettivo                                    Stato
-============================================ =================================================================================================================================================
-**Open Data (Obiettivo 2)**                  Dati non disponibili
+============================================ ================================================================================================================================================================
+**Open Data (Obiettivo 2)**                  Dati non disponibili presso l'Amministrazione
 **Caricamento DAF e API (Obiettivi 1 e 3)**
-**Monitoraggio (Obiettivo 5)**
-============================================ =================================================================================================================================================
+**Monitoraggio (Obiettivo 5)**               | Il referente istituzionale, regione Piemonte, ha esposti
+                                             | i dati tramite `app <https://app.cicloturismo.piemonte.it/it/percorsi>`__ e non come dati scaricabili in bulk
+                                             | o interrogabili mediante API
+============================================ ================================================================================================================================================================
 
 Comune di Firenze
 """""""""""""""""
@@ -1486,8 +1490,8 @@ Obiettivo                                     Stato
                                               | e scaricabile previa indicazione di un indirizzo email.
                                               | Secondo le note legali presenti sul sito, non sembra possibile
                                               | considerare i dati come dati aperti
-**Caricamento nel DAF (Obiettivo 1)**         | Al momento non abbiamo notizie da InfoCamere, con cui le
-                                              | comunicazioni si sono interrotte in data xxx.
+**Caricamento nel DAF (Obiettivo 1)**         | Al momento non abbiamo notizie da InfoCamere. Le
+                                              | comunicazioni si sono interrotte lo scorso Settembre 2017.
 **Disponibilità di API (Obiettivo 3)**        | Al meglio delle nostre conoscenze non
                                               | è attualmente corredato di API
 **Modellazione dati (Obiettivo 4)**           | Nell’ambito della rete `OntoPiA <https://github.com/italia/daf-ontologie-vocabolari-controllati>`__
@@ -1508,8 +1512,8 @@ Obiettivo                                     Stato
                                               | e scaricabile previa indicazione di un indirizzo email.
                                               | Secondo le note legali presenti sul sito, non sembra possibile
                                               | considerare i dati come dati aperti
-**Caricamento nel DAF (Obiettivo 1)**         | Al momento non abbiamo notizie da InfoCamere, con cui le
-                                              | comunicazioni si sono interrotte in data xxx.
+**Caricamento nel DAF (Obiettivo 1)**         | Al momento non abbiamo notizie da InfoCamere. Le
+                                              | comunicazioni si sono interrotte lo scorso Settembre 2017.
 **Disponibilità di API (Obiettivo 3)**        | Al meglio delle nostre conoscenze non
                                               | è attualmente corredato di API
 **Modellazione dati (Obiettivo 4)**           | Nell’ambito della rete `OntoPiA <https://github.com/italia/daf-ontologie-vocabolari-controllati>`__
@@ -1532,8 +1536,8 @@ Obiettivo                                     Stato
                                               | Al meglio delle nostre conoscenze non si ravvedono vincoli
                                               | per il riutilizzo dei dati che possono così essere considerati
                                               | aperti by default.
-**Caricamento nel DAF (Obiettivo 1)**         | Al momento non abbiamo notizie da InfoCamere, con cui le
-                                              | comunicazioni si sono interrotte in data xxx.
+**Caricamento nel DAF (Obiettivo 1)**         | Al momento non abbiamo notizie da InfoCamere. Le
+                                              | comunicazioni si sono interrotte lo scorso Settembre 2017.
 **Disponibilità di API (Obiettivo 3)**        | Al meglio delle nostre conoscenze non
                                               | è attualmente corredato di API
 **Modellazione dati (Obiettivo 4)**           | Nell’ambito della rete `OntoPiA <https://github.com/italia/daf-ontologie-vocabolari-controllati>`__
@@ -1553,8 +1557,10 @@ Obiettivo                                     Stato
 **Open Data (Obiettivo 2)**                   | Il `dataset <http://www.agenziaentrate.gov.it/wps/content/nsilib/nsi/schede/fabbricatiterreni/omi/banche+dati/quotazioni+immobiliari/download+gratuito>`__ delle quotazioni OMI, a partire dal primo semestre 2016,
                                               | è disponibile gratuitamente per gli utenti registrati a Fisconline e Entratel
                                               | Il dataset non può essere completamente considerato aperto.
-**Caricamento nel DAF (Obiettivo 1)**         Il dataset è stato caricato nel DAF e sarà reso disponibile in open data (?????)
-**Disponibilità di API (Obiettivo 3)**        Sì attraverso il DAF
+**Caricamento nel DAF (Obiettivo 1)**         | Si è in contatto con con Agenzia delle Entrate
+                                              | per impostare il caricamento automatico nel DAF.
+**Disponibilità di API (Obiettivo 3)**        | Una volta caricato nel DAF, sarà possibile interrogarlo
+                                              | con API e sarà corredato di metadati DCAT-AP_IT
 **Modellazione dati (Obiettivo 4)**           | Nell’ambito della rete `OntoPiA <https://github.com/italia/daf-ontologie-vocabolari-controllati>`__
                                               | di ontologie e vocabolari controllati per la pubblica amministrazione
                                               | l’ontologia dei luoghi/indirizzi può essere usata per la modellazione
@@ -1566,7 +1572,24 @@ Obiettivo                                     Stato
 Catasto - Consultazione rendite
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Il dataset non è disponibile né come dato aperto né all'interno del DAF.
+============================================= ======================================================================================================================================================================================================================================================================================
+Obiettivo                                     Stato
+============================================= ======================================================================================================================================================================================================================================================================================
+**Open Data (Obiettivo 2)**                   | Il dataset non è disponibile
+                                              | presso l'amministrazione in open data
+**Caricamento nel DAF (Obiettivo 1)**         | Il dataset non è ancora caricato nel DAF.
+                                              | Si è attualmente in contatto con l'Agenzia
+                                              | delle Entrate.
+**Disponibilità di API (Obiettivo 3)**        | Una volta caricato nel DAF,
+                                              | il dataset sarà reso disponibile nel catalogo open data,
+                                              | metadatato secondo il profilo DCATAP_IT,
+                                              | e corredato con le API di interrogazione.
+**Modellazione dati (Obiettivo 4)**           | Nell’ambito della rete `OntoPiA <https://github.com/italia/daf-ontologie-vocabolari-controllati>`__
+                                              | di ontologie e vocabolari controllati per la pubblica amministrazione
+                                              | l’ontologia dei luoghi/indirizzi può essere usata per la modellazione
+                                              | di *una parte di questi dati*.
+============================================= ======================================================================================================================================================================================================================================================================================
+
 
 Giustizia, sistema giuridico e sicurezza pubblica
 -------------------------------------------------
@@ -1593,7 +1616,8 @@ Obiettivo                                     Stato
                                               | Esiste tuttavia un altro dataset più completo pubblicato da ANPR
                                               | con cui è prevista l’integrazione con il DAF.
                                               | Il dataset è al momento `disponibile liberamente <http://anpr.readthedocs.io/en/latest/tab/tab_comuni.html>`__
-                                              | sebbene non in formato aperto.
+                                              | sebbene non in formato aperto. Questo dataset ANPR sarà
+                                              | considerato il riferimento nazionale per questi dati.
 **Caricamento nel DAF e API (Obiettivi 1,3)** | Il dataset completo dell'ANPR è già presente nel DAF
                                               | e sarà reso disponibile come open data entro fine aprile 2018
 **Modellazione dati (Obiettivo 4)**           | L’ontologia dei luoghi è stata utilizzata,
@@ -1654,6 +1678,6 @@ Conclusioni finali
 Dalla situazione descritta nelle precedenti sezioni emerge un quadro di apertura dei dataset abbastanza positivo, soprattutto quando le pubbliche amministrazioni coinvolte sono quelle locali.
 Nell'ambito della Task Force #DatiPubblici non tutte le amministrazioni hanno concorso, nel corso del 2017, ugualmente e direttamente nel rilascio dei relativi dati in open data, come previsto e riportato nelle precedenti sezioni del presente documento.
 Si rileva però che alcune di loro sono state particolarmente attive, anche grazie allo stimolo della pubblicazione dell'elenco delle basi di dati chiave, sia nell'apertura che nella collaborazione con il DAF.
-Dal punto di vista della modellazione e della presenza dei metadati DCAT-AP_IT la situazione in generale è abbastanza buona. Molte delle amministrazioni della Task Force si sono dotate degli strumenti per adeguarsi al profilo, o hanno utilizzato il DAF stesso per raggiungere tale obiettivo. In termini di modellazione dei dati, sono state definite diverse ontologie, sebbene alcune ancora instabili, che forniscono uno schema dati comune per la maggior parte delle basi di dati/dataset presenti nell'elenco.
-Dal punto di vista invece delle pubbliche amministrazioni centrali si riscontrano più difficoltà nel raggiungimento degli obiettivi: con l'eccezione del Ministero dei Beni Culturali e del Turismo, parte cultura, gli obiettivi per le altre amministrazioni centrali non sono stati raggiunti entro il 2017. Per alcune basi di dati ci sono stati ritardi. Tali ritardi, dovuti anche alla complessità dei sistemi e processi coinvolti, saranno comunque recuperati nel corso della prima parte metà del 2018 (e.g., normattiva); per altri dataset non sembra realistico ipotizzare la loro disponibilità nel DAF e come dati di tipo aperto durante il 2018. Nonostante questo scenario, è bene sottolineare che altre amministrazioni centrali, diverse da quelle originariamente indicate nel documento, hanno comunque collaborato nel corso del 2017 per utilizzare il DAF come strumento di condivisione, standardizzazione e apertura dei propri dati (e.g., Corte dei Conti, ANAC, ecc.).
+Dal punto di vista della modellazione e della presenza dei metadati DCAT-AP_IT la situazione in generale è abbastanza buona. Molte delle amministrazioni della Task Force si sono dotate degli strumenti per adeguarsi al profilo, o stanno utilizzando il DAF stesso per raggiungere tale obiettivo. In termini di modellazione dei dati, sono state definite diverse ontologie, sebbene alcune ancora instabili, che forniscono uno schema dati comune per la maggior parte delle basi di dati/dataset presenti nell'elenco.
+Dal punto di vista invece delle pubbliche amministrazioni centrali si riscontrano più difficoltà nel raggiungimento degli obiettivi: con l'eccezione del Ministero dei Beni Culturali e del Turismo, parte cultura, gli obiettivi per le altre amministrazioni centrali non sono stati raggiunti entro il 2017. Per alcune basi di dati ci sono stati ritardi. Tali ritardi, dovuti anche alla complessità dei sistemi e processi coinvolti, saranno comunque recuperati nel corso della prima parte metà del 2018 (e.g., normattiva); per altri dataset non sembra realistico ipotizzare la loro disponibilità nel DAF e come dati di tipo aperto durante il 2018. Nonostante questo scenario, è bene sottolineare che altre amministrazioni centrali, diverse da quelle originariamente indicate nel documento, hanno comunque collaborato nel corso del 2017 per utilizzare il DAF come strumento di condivisione, standardizzazione e apertura dei propri dati (e.g., Corte dei Conti, MEF Ragioneria Generale dello Stato, ecc.).
 Infine i ritardi per le operazioni di caricamento nel DAF sono stati principalmente dovuti ai ritardi nello sviluppo della piattaforma tecnologica e nell'individuazione della futura amministrazione titolare del DAF. Tuttavia, per tutte quelle PA, soprattutto della Task Force, dove sono in corso attività di sperimentazione e di ingestione, si prevede la disponibilità dei dati nel DAF e come open data (qualora possibile), entro la prima metà del 2018.
