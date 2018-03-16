@@ -11,7 +11,7 @@ Indice dei contenuti
 --------------------
 
 .. toctree::
-   :maxdepth: 5
+   :maxdepth: 3
 
    intro.rst
    processo.rst
