@@ -1,4 +1,4 @@
-Elenco Basi di Dati Chiave
+Elenco basi di dati chiave
 ==========================
 
 Questo documento rappresenta il risultato dell'azione "Individuazione delle basi di dati chiave" definita nell'ambito degli Open Data del `Piano Triennale per l'Informatica nella PA (2017-2019) <https://pianotriennale-ict.readthedocs.io/it/latest/doc/04_infrastrutture-immateriali.html#id31>`__.
