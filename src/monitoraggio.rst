@@ -131,7 +131,7 @@ Obiettivo                                    Stato
 Si noti che nell’ambito della sperimentazione del DAF è stata attivata una collaborazione con il Ministero delle Infrastrutture e dei Trasporti per l’acquisizione degli eventi emessi dal CCISS.
 Si sta valutando pertanto la possibilità di pubblicare uno stream real time di tali dati.
 
-**Obiettivo 4**: Nell’ambito della rete `OntoPiA <https://github.com/italia/daf-ontologie-vocabolari-controllati>`__ di ontologie e vocabolari controllati per la pubblica amministrazione è stata creata l’ontologia EventiIoT (pubblicata in conferenza internazionale con esempi in Linked Open Data estratti dai dati sul traffico del comune di Firenze nell’ambito della rilevazione sperimentale fatta nel DAF con il comune stesso, come indicato sotto) costruita a partire dai dati realtime del Comune di Torino e del Comune di Firenze. L’ontologia è allineata a diverse ontologie del Web Semantico tra cui, in particolare, la Semantic Sensor Network.
+**Obiettivo 4**: Nell’ambito della rete `OntoPiA <https://github.com/italia/dati-semantic-assets>`__ di ontologie e vocabolari controllati per la pubblica amministrazione è stata creata l’ontologia EventiIoT (pubblicata in conferenza internazionale con esempi in Linked Open Data estratti dai dati sul traffico del comune di Firenze nell’ambito della rilevazione sperimentale fatta nel DAF con il comune stesso, come indicato sotto) costruita a partire dai dati realtime del Comune di Torino e del Comune di Firenze. L’ontologia è allineata a diverse ontologie del Web Semantico tra cui, in particolare, la Semantic Sensor Network.
 I dataset aperti della Provincia Autonoma di Trento e di Bolzano e del Comune di Torino via DAF presentano metadati allineati a DCAT-AP_IT. Nel caso di Roma Capitale, si segnala che sono in corso i test per la conformità al profilo DCAT-AP_IT e per l'harvesting nel catalogo nazionale.
 
 Parcheggi
@@ -226,7 +226,7 @@ Obiettivo                                    Stato
 **Monitoraggio (Obiettivo 5)**
 ============================================ ===========================================================================================================================================================
 
-**Obiettivo 4**: Nell’ambito della rete `OntoPiA <https://github.com/italia/daf-ontologie-vocabolari-controllati>`__ di ontologie e vocabolari controllati per la pubblica amministrazione è stata creata l’ontologia dei Parcheggi. Oltre a una prima tassonomia presente nell’ontologia, in stretto contatto con ISTAT, si sta valutando la creazione di un ulteriore vocabolario controllato sui tipi di parcheggi che si differenziano in base alla loro struttura.
+**Obiettivo 4**: Nell’ambito della rete `OntoPiA <https://github.com/italia/dati-semantic-assets>`__ di ontologie e vocabolari controllati per la pubblica amministrazione è stata creata l’ontologia dei Parcheggi. Oltre a una prima tassonomia presente nell’ontologia, in stretto contatto con ISTAT, si sta valutando la creazione di un ulteriore vocabolario controllato sui tipi di parcheggi che si differenziano in base alla loro struttura.
 I dataset aperti delle Province Autonome di Trento e Bolzano, del comune di Milano e di Firenze via DAF hanno metadati conformi al profilo DCAT-AP_IT. Nel caso di Roma Capitale, si segnala che sono in corso i test per la conformità al profilo DCAT-AP_IT e per l'harvesting nel catalogo nazionale.
 
 Perimetro, varchi e orari ZTL
@@ -320,7 +320,7 @@ Obiettivo                                    Stato
 **Monitoraggio (Obiettivo 5)**
 ============================================ ===========================================================================================================================================================
 
-**Obiettivo 4**: Nell’ambito della rete `OntoPiA <https://github.com/italia/daf-ontologie-vocabolari-controllati>`__ di ontologie e vocabolari controllati per la pubblica amministrazione è stata creata l’ontologia dei Luoghi/Indirizzi che può essere utilizzata per modellare *una parte di questi dati (ovvero i dati trasversali presenti nel dataset)*.
+**Obiettivo 4**: Nell’ambito della rete `OntoPiA <https://github.com/italia/dati-semantic-assets>`__ di ontologie e vocabolari controllati per la pubblica amministrazione è stata creata l’ontologia dei Luoghi/Indirizzi che può essere utilizzata per modellare *una parte di questi dati (ovvero i dati trasversali presenti nel dataset)*.
 Non è ancora stata predisposta un’ontologia per i dati specifici di dominio.
 
 I dataset aperti della Provincia Autonoma di Trento e del comune di Milano hanno metadati conformi al profilo DCAT-AP_IT. Nel caso di Roma Capitale, si segnala che sono in corso i test per la conformità al profilo DCAT-AP_IT e per l'harvesting nel catalogo nazionale.
@@ -480,7 +480,7 @@ Obiettivo                                    Stato
 **Monitoraggio (Obiettivo 5)**
 ============================================ ===========================================================================================================================================================
 
-**Obiettivo 4**: Nell’ambito della rete `OntoPiA <https://github.com/italia/daf-ontologie-vocabolari-controllati>`__ di ontologie e vocabolari controllati per la pubblica amministrazione, è in corso di definizione l’ontologia basata sul modello GTFS (per la parte relativa ai dati statici). Sulla base della specifica, alcuni dati sono già modellabili attraverso altre ontologie della rete, nello specifico, l’ontologia delle organizzazioni. l’ontologia del tempo, l’ontologia dei punti di interesse, l’ontologia dei prezzi/biglietti/offerte.
+**Obiettivo 4**: Nell’ambito della rete `OntoPiA <https://github.com/italia/dati-semantic-assets>`__ di ontologie e vocabolari controllati per la pubblica amministrazione, è in corso di definizione l’ontologia basata sul modello GTFS (per la parte relativa ai dati statici). Sulla base della specifica, alcuni dati sono già modellabili attraverso altre ontologie della rete, nello specifico, l’ontologia delle organizzazioni. l’ontologia del tempo, l’ontologia dei punti di interesse, l’ontologia dei prezzi/biglietti/offerte.
 Si stima che l’ontologia relativa di dominio sarà disponibile nel repository github nei prossimi mesi (entro la primavera). Questa sarà collegata alle suddette ontologie che possono già essere riutilizzate per modellare alcune informazioni della specifica. Per quanto concerne la parte di dati in tempo reale, l’ontologia Eventi IoT potrebbe essere utilizzata.
 
 
@@ -505,7 +505,7 @@ Obiettivo                                    Stato
                                              | personali, è **stata caricata** nel DAF.
                                              | Al termine della sperimentazione l’amministrazione potrà decidere
                                              | come pubblicare l'intero dataset mediante il DAF.
-**Modellazione dati (Obiettivo 4)**          | Non è al momento presente, nella rete `OntoPiA <https://github.com/italia/daf-ontologie-vocabolari-controllati>`__, un’ontologia
+**Modellazione dati (Obiettivo 4)**          | Non è al momento presente, nella rete `OntoPiA <https://github.com/italia/dati-semantic-assets>`__, un’ontologia
                                              | di dominio che catturi il concetto di Patente.
                                              | Tuttavia da una prima analisi dei dati, le ontologie sul tempo e sulle
                                              | persone possono essere utilizzate per modellare una parte dei dati.
@@ -595,7 +595,7 @@ Obiettivo                                    Stato
 **Monitoraggio (Obiettivo 5)**
 ============================================ ===========================================================================================================================================================
 
-**Obiettivo 4**: Non è al momento presente, nella rete `OntoPiA <https://github.com/italia/daf-ontologie-vocabolari-controllati>`__, un’ontologia di dominio per gli incidenti stradali. Da una prima analisi dei dati pubblicati da Roma Capitale e dal Comune di Palermo, le ontologie delle persone, dei luoghi/indirizzi, dei punti di interesse possono essere utilizzate per modellare una parte di questi dati. Si noti che si è in contatto con ISTAT per acquisire il modello da loro utilizzato che raccogliere i dati dai vari comuni italiani.
+**Obiettivo 4**: Non è al momento presente, nella rete `OntoPiA <https://github.com/italia/dati-semantic-assets>`__, un’ontologia di dominio per gli incidenti stradali. Da una prima analisi dei dati pubblicati da Roma Capitale e dal Comune di Palermo, le ontologie delle persone, dei luoghi/indirizzi, dei punti di interesse possono essere utilizzate per modellare una parte di questi dati. Si noti che si è in contatto con ISTAT per acquisire il modello da loro utilizzato che raccogliere i dati dai vari comuni italiani.
 
 
 Istruzione, cultura e sport
@@ -789,7 +789,7 @@ Obiettivo                                    Stato
                                              | di un catalogo disponibile su piattaforma proprietaria
 ============================================ ===========================================================================================================================================================
 
-**Obiettivo 4**: Nell’ambito del lavoro di standardizzazione del DAF il modello di riferimento per questa tipologia di dati è Cultural-ON del MIBACT. L'ontologia `Cultural-ON  <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/Cultural-ON/latest>`__ è stata rifattorizzata per consentire l’appartenenza della stessa alla rete OntoPiA (questo ha comportato una revisione della stessa ma solo per abilitare i collegamenti  alle altre ontologie della rete). Sono in corso di definizione alcuni vocabolari controllati in collaborazione con il MIBACT (e.g., vocabolario sulle aree disciplinari quali arte, architettura, storia, ecc.). Non tutte le amministrazioni rilasciano i dataset con metadati conformi al profilo DCAT-AP_IT. Tra quelle conformi si rilevano: Comune di Palermo, Comune di Milano, Firenze via DAF, MIBACT, Regione Toscana, Provincia Autonoma di Bolzano e Regione Emilia Romagna.
+**Obiettivo 4**: Nell’ambito del lavoro di standardizzazione del DAF il modello di riferimento per questa tipologia di dati è Cultural-ON del MIBACT. L'ontologia `Cultural-ON  <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/Cultural-ON/latest>`__ è stata rifattorizzata per consentire l’appartenenza della stessa alla rete OntoPiA (questo ha comportato una revisione della stessa ma solo per abilitare i collegamenti  alle altre ontologie della rete). Sono in corso di definizione alcuni vocabolari controllati in collaborazione con il MIBACT (e.g., vocabolario sulle aree disciplinari quali arte, architettura, storia, ecc.). Non tutte le amministrazioni rilasciano i dataset con metadati conformi al profilo DCAT-AP_IT. Tra quelle conformi si rilevano: Comune di Palermo, Comune di Milano, Firenze via DAF, MIBACT, Regione Toscana, Provincia Autonoma di Bolzano e Regione Emilia Romagna.
 
 
 
@@ -952,7 +952,7 @@ Obiettivo                                    Stato
 **Monitoraggio (Obiettivo 5)**
 ============================================ ======================================================================================================================================================
 
-**Obiettivo 4**: Nell’ambito del lavoro di standardizzazione del DAF il modello di riferimento per questa tipologia di dati è l’ontologia  `Eventi pubblici <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/EventiPubblici/latest>`__, con il relativo vocabolario controllato sui `Tipi di Eventi Pubblici <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/public-event-types>`__ (quest'ultimo vocabolario è allineato anche all'ontologia schema.org). Si noti che l'ontologia degli Eventi Pubbilci è da considerarsi ancora instabile. E’ stato infatti istituito nei primi giorni di Febbraio 2018 un gruppo europeo per la definizione del cosiddetto Core Public Event Vocabulary. L’ontologia pertanto potrà subire modifiche in base ai risultati che emergeranno da tale gruppo di lavoro che vede un’ampia partecipazione italiana (AgID/Team, ANAC, Comune di Palermo, Comune di Udine, Provincia Autonoma di Trento e alcuni istituti del CNR).
+**Obiettivo 4**: Nell’ambito del lavoro di standardizzazione del DAF il modello di riferimento per questa tipologia di dati è l’ontologia  `Eventi pubblici <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/EventiPubblici/latest>`__, con il relativo vocabolario controllato sui `Tipi di Eventi Pubblici <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/public-event-types>`__ (quest'ultimo vocabolario è allineato anche all'ontologia schema.org). Si noti che l'ontologia degli Eventi Pubbilci è da considerarsi ancora instabile. E’ stato infatti istituito nei primi giorni di Febbraio 2018 un gruppo europeo per la definizione del cosiddetto Core Public Event Vocabulary. L’ontologia pertanto potrà subire modifiche in base ai risultati che emergeranno da tale gruppo di lavoro che vede un’ampia partecipazione italiana (AgID/Team, ANAC, Comune di Palermo, Comune di Udine, Provincia Autonoma di Trento e alcuni istituti del CNR).
 Ad esclusione della Regione Lombardia, per cui sono in atto le necessarie azioni per pubblicare metadati conformi al profilo, anche grazie all’ingestion nel DAF, i dataset disponibili sono corredati di metadati conformi a DCAT-AP_IT.
 
 
@@ -1267,7 +1267,7 @@ Obiettivo                                    Stato
 ============================================ ===========================================================================================================================================================
 
 
-**Obiettivo 4**: Non è al momento presente, nella rete `OntoPiA <https://github.com/italia/daf-ontologie-vocabolari-controllati>`__, un’ontologia di dominio per i cammini. *Una parte dei dati* può essere modellata utilizzando sia l’ontologia dei `punti di interesse <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/PuntoDiInteresse/latest>`__ sia l’ontologia dei `luoghi/indirizzi <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/CLV/latest>`__, sia l’ontologia dei `social media/internet <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/SM/latest>`__ che include la possibilità di modellare oggetti con associate immagini e riferimenti online.
+**Obiettivo 4**: Non è al momento presente, nella rete `OntoPiA <https://github.com/italia/dati-semantic-assets>`__, un’ontologia di dominio per i cammini. *Una parte dei dati* può essere modellata utilizzando sia l’ontologia dei `punti di interesse <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/PuntoDiInteresse/latest>`__ sia l’ontologia dei `luoghi/indirizzi <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/CLV/latest>`__, sia l’ontologia dei `social media/internet <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/SM/latest>`__ che include la possibilità di modellare oggetti con associate immagini e riferimenti online.
 
 Strutture ricettive
 ^^^^^^^^^^^^^^^^^^^
@@ -1417,7 +1417,7 @@ Obiettivo                                    Stato
 **Monitoraggio (Obiettivo 5)**
 ============================================ ===========================================================================================================================================================
 
-**Obiettivo 4**: nell’ambito della rete `OntoPiA <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/SM/latest>`__ di ontologie e vocabolari controllati per la pubblica amministrazione è stata creata l’ontologia `Strutture ricettive <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/StruttureRicettive/latest>`__ con i relativi `vocabolari controllati <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-accommodation-facilities>`__.
+**Obiettivo 4**: nell’ambito della rete `OntoPiA <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/SM/latest>`__ di ontologie e vocabolari controllati per la pubblica amministrazione è stata creata l’ontologia `Strutture ricettive <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/StruttureRicettive/latest>`__ con i relativi `vocabolari controllati <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-accommodation-facilities>`__.
 
 
 Guide turistiche
@@ -1494,9 +1494,9 @@ Obiettivo                                     Stato
                                               | comunicazioni si sono interrotte lo scorso Settembre 2017.
 **Disponibilità di API (Obiettivo 3)**        | Al meglio delle nostre conoscenze non
                                               | è attualmente corredato di API
-**Modellazione dati (Obiettivo 4)**           | Nell’ambito della rete `OntoPiA <https://github.com/italia/daf-ontologie-vocabolari-controllati>`__
+**Modellazione dati (Obiettivo 4)**           | Nell’ambito della rete `OntoPiA <https://github.com/italia/dati-semantic-assets>`__
                                               | di ontologie e vocabolari controllati per la pubblica amministrazione
-                                              | l’ontologia delle `organizzazioni (parte privata) <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/COV/latest>`__
+                                              | l’ontologia delle `organizzazioni (parte privata) <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/COV/latest>`__
                                               | può essere usata per la modellazione di questi dati.
                                               | Il dataset non al momento corredato di metadati DCAT-AP_IT
 ============================================= ======================================================================================================================================================================================================================================================================================
@@ -1516,9 +1516,9 @@ Obiettivo                                     Stato
                                               | comunicazioni si sono interrotte lo scorso Settembre 2017.
 **Disponibilità di API (Obiettivo 3)**        | Al meglio delle nostre conoscenze non
                                               | è attualmente corredato di API
-**Modellazione dati (Obiettivo 4)**           | Nell’ambito della rete `OntoPiA <https://github.com/italia/daf-ontologie-vocabolari-controllati>`__
+**Modellazione dati (Obiettivo 4)**           | Nell’ambito della rete `OntoPiA <https://github.com/italia/dati-semantic-assets>`__
                                               | di ontologie e vocabolari controllati per la pubblica amministrazione
-                                              | l’ontologia delle `organizzazioni (parte privata) <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/COV/latest>`__
+                                              | l’ontologia delle `organizzazioni (parte privata) <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/COV/latest>`__
                                               | può essere usata per la modellazione di *una parte di questi dati*.
                                               | Il dataset non al momento corredato di metadati DCAT-AP_IT
 ============================================= ======================================================================================================================================================================================================================================================================================
@@ -1540,9 +1540,9 @@ Obiettivo                                     Stato
                                               | comunicazioni si sono interrotte lo scorso Settembre 2017.
 **Disponibilità di API (Obiettivo 3)**        | Al meglio delle nostre conoscenze non
                                               | è attualmente corredato di API
-**Modellazione dati (Obiettivo 4)**           | Nell’ambito della rete `OntoPiA <https://github.com/italia/daf-ontologie-vocabolari-controllati>`__
+**Modellazione dati (Obiettivo 4)**           | Nell’ambito della rete `OntoPiA <https://github.com/italia/dati-semantic-assets>`__
                                               | di ontologie e vocabolari controllati per la pubblica amministrazione
-                                              | l’ontologia delle `organizzazioni (parte privata) <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/COV/latest>`__
+                                              | l’ontologia delle `organizzazioni (parte privata) <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/COV/latest>`__
                                               | può essere usata per la modellazione di *una parte di questi dati*.
                                               | Il dataset non al momento corredato di metadati DCAT-AP_IT
 ============================================= ======================================================================================================================================================================================================================================================================================
@@ -1561,7 +1561,7 @@ Obiettivo                                     Stato
                                               | per impostare il caricamento automatico nel DAF.
 **Disponibilità di API (Obiettivo 3)**        | Una volta caricato nel DAF, sarà possibile interrogarlo
                                               | con API e sarà corredato di metadati DCAT-AP_IT
-**Modellazione dati (Obiettivo 4)**           | Nell’ambito della rete `OntoPiA <https://github.com/italia/daf-ontologie-vocabolari-controllati>`__
+**Modellazione dati (Obiettivo 4)**           | Nell’ambito della rete `OntoPiA <https://github.com/italia/dati-semantic-assets>`__
                                               | di ontologie e vocabolari controllati per la pubblica amministrazione
                                               | l’ontologia dei luoghi/indirizzi può essere usata per la modellazione
                                               | di *una parte di questi dati*. Il dataset è corredato di metadati
@@ -1584,7 +1584,7 @@ Obiettivo                                     Stato
                                               | il dataset sarà reso disponibile nel catalogo open data,
                                               | metadatato secondo il profilo DCATAP_IT,
                                               | e corredato con le API di interrogazione.
-**Modellazione dati (Obiettivo 4)**           | Nell’ambito della rete `OntoPiA <https://github.com/italia/daf-ontologie-vocabolari-controllati>`__
+**Modellazione dati (Obiettivo 4)**           | Nell’ambito della rete `OntoPiA <https://github.com/italia/dati-semantic-assets>`__
                                               | di ontologie e vocabolari controllati per la pubblica amministrazione
                                               | l’ontologia dei luoghi/indirizzi può essere usata per la modellazione
                                               | di *una parte di questi dati*.
